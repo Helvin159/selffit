@@ -1,0 +1,321 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Sonsie+One&display=swap");
+
+/*  
+font-family: 'Krona One', sans-serif;
+font-family: 'Sonsie One', cursive;  
+*/
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sonsie One", cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: "Sonsie One", cursive;
+}
+
+.nav-link {
+  font-family: "Krona One", sans-serif;
+  font-size: 12px;
+}
+
+.subscribe {
+  color: #2e2f2f;
+  text-align: center;
+  padding: 2.5%;
+  background-color: #fefffe;
+}
+
+/* Navbar */
+.menu-item,
+.menu-item a {
+  color: #000000;
+  padding: 0 10%;
+  font-size: 13px;
+  font-family: "Krona One", sans-serif;
+}
+
+.cartIcon,
+.cartIcon a {
+  padding: 0px;
+  margin-left: 65%;
+  float: right;
+  color: red;
+}
+
+/* Widgets */
+.widget ul,
+.product-categories li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.widget_product_categories,
+.widget_recent_entries,
+.widget_price_filter,
+.widget_shopping_cart {
+  list-style-type: none;
+  border: 1px solid lightgrey;
+  padding: 10%;
+  border-radius: 5px;
+}
+
+/* Checkout Page */
+.form-row,
+.woocommerce-input-wrapper {
+  width: 95%;
+}
+
+.woocommerce-billing-fields__field-wrapper,
+.woocommerce-additional-fields {
+  padding: 2.5%;
+  margin: 3.5% 0;
+  border-radius: 5px;
+}
+
+/* Shopping / All products */
+.prodcutsCustom ul {
+  display: inline-block;
+}
+
+.price {
+  font-size: 20px;
+  padding: 2.5%;
+}
+
+.productCards {
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5) !important;
+  min-height: 450px;
+  padding: 0.5%;
+  margin: 5% 0;
+  border-radius: 5px;
+}
+
+/* Cards */
+.cards ul {
+  list-style-type: none;
+}
+
+.card img {
+  padding: 2.5%;
+  margin: 5% 0px;
+  box-shadow: 1px 1px 6px #00000050;
+}
+
+.card {
+  height: 375px;
+  border-radius: 5%;
+  width: auto;
+  padding: 10%;
+  text-align: center;
+  box-shadow: -1px 4px 5px rgba(0, 0, 0, 0.5);
+  background-color: #bfd7ea !important;
+}
+
+.cards {
+  height: 375px;
+  width: auto;
+  padding: 2px;
+  margin: 2px 0px;
+}
+
+.cardrow {
+  padding: 4.5%;
+  background-color: #fefffe;
+}
+
+/* Content */
+.theContent ul {
+  margin: 3.5% 0;
+}
+
+.theContent li {
+  margin: 1.5% 0;
+}
+
+.theContent ul,
+.theContent li {
+  list-style-type: square;
+  font-size: 18px;
+}
+.theContent video {
+  border-radius: 5px;
+  margin: 2.5% 0;
+  box-shadow: -1px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Carousel */
+.carousel-item {
+  max-height: 60vh !important;
+}
+
+.itemOne {
+  background-image: url("../Assets/img/4.JPG");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.itemTwo {
+  background-image: url("../Assets/img/5.JPG");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.itemThree {
+  background-image: url("../Assets/img/6.JPG");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+/* Ads */
+.ads {
+  height: auto;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.adsbg3 {
+  padding: 2.5%;
+  border-radius: 10px;
+  background-color: rgba(232, 233, 237, 0.9);
+}
+
+.adsbg3 ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.adsbg3 img {
+  height: 200px;
+  width: 200px;
+}
+
+/* Featured */
+.featuredprods {
+  padding: 2.5%;
+}
+
+/* Reviews */
+
+.reviews {
+  background: url(../Assets/img/lpbg.jpeg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+  height: auto;
+  padding: 2.5%;
+}
+
+.comments {
+  padding: 5%;
+  border-radius: 15px;
+  background-color: rgba(232, 233, 237, 0.9);
+}
+
+/* Related Links */
+
+.rellinks a {
+  color: white;
+}
+.rellinks {
+  background-color: #1c3a13;
+  color: white;
+  padding: 2%;
+}
+
+.stories {
+  background-image: url(../Assets/img/4.JPG);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: none;
+  height: auto;
+  padding: 5%;
+}
+
+.article {
+  background-color: #ff6663;
+  margin: 15px 0px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.article img {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.articles {
+  background-color: #fefffe;
+  padding: 3.5%;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../Assets/img/5.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  color: white;
+}
+
+/* Featured Products */
+.mfeatured {
+  background-color: #009ccc;
+  padding: 2.5%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  width: 75%;
+}
+.wfeatured {
+  background-color: #c97ec3;
+  padding: 2.5%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  width: 75%;
+}
+
+.topcategories {
+  padding: 2.5% 2.5%;
+  background: #fefffe;
+  margin: 0px;
+}
+
+/* Headers */
+.headers a {
+  color: white;
+}
+
+.headers {
+  background-color: #188c48;
+  padding: 2.5%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}

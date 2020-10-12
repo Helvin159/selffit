@@ -1,0 +1,10 @@
+<?php
+	get_header();
+	require_once('Partials/hero.php');
+	require_once('Partials/section1.php');
+	require_once('Partials/section2.php');
+	require_once('Partials/section4.php');
+	require_once('Partials/section5.php');
+	require_once('Partials/section6.php');
+	require_once('Partials/rellinks.php');
+	get_footer();

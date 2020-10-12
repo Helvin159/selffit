@@ -1,0 +1,42 @@
+<?php 
+get_header();
+require_once('Partials/banner.php');
+?>
+
+<div class="container-fluid py-5">
+  <div class="container py-5">
+    <h1>Blog</h1>
+  </div>
+<?php
+$showPost = new WP_Query(have_posts());
+
+while($showPost->have_posts()){
+  $showPost->the_post(); ?>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="img-fluid" src="<?php the_post_thumbnail_url('blogSquare')?>" alt="" >
+      </div>
+      <div class="col-md-8">
+        <div class="container p-2">
+          <h3><a href="<?php the_permalink()?>"><?php the_title()?></a></h3>
+          <div class="container">
+            <?php echo substr(get_the_excerpt(),0,425);echo '...';?>
+            <br>
+            <div class="container my-1">
+              <a href="<?php the_permalink()?>"> Ver Entrada Completa <i class="fas fa-long-arrow-alt-right"></i></a>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<?php } 
+require_once('Partials/pagination.php');
+?>
+</div>
+
+<?php 
+require_once('Partials/rellinks.php');
+get_footer();
+?>

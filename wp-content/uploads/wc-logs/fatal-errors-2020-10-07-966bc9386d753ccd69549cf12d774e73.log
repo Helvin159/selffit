@@ -1,0 +1,87 @@
+2020-10-07T14:59:21+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_loop() in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/woocommerce.php:10
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-blog-header.php(19): require_once('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/self-fit/app/public/index.php(17): require('/Users/helvinry...')
+#3 {main}
+  thrown in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/woocommerce.php on line 10
+
+2020-10-07T15:30:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/functions.php on line 68 and at least 2 expected in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-includes/plugin.php:583
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/functions.php(68): remove_action('woocommerce_sho...')
+#1 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-settings.php(514): include('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-config.php(79): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-load.php(37): require_once('/Users/helvinry...')
+#4 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-blog-header.php(13): require_once('/Users/helvinry...')
+#5 /Users/helvinrymer/Local Sites/self-fit/app/public/index.php(17): require('/Users/helvinry...')
+#6 {main}
+  thrown in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-includes/plugin.php on line 583
+
+2020-10-07T16:50:56+00:00 CRITICAL syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section2.php on line 14
+
+2020-10-07T16:55:20+00:00 CRITICAL syntax error, unexpected ')' in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section2.php on line 24
+
+2020-10-07T17:24:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section1.php:45
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/front-page.php(4): require_once()
+#1 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-includes/template-loader.php(106): include('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-blog-header.php(19): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/self-fit/app/public/index.php(17): require('/Users/helvinry...')
+#4 {main}
+  thrown in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section1.php on line 45
+
+2020-10-07T17:24:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_regular_price() in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section1.php:45
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/front-page.php(4): require_once()
+#1 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-includes/template-loader.php(106): include('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-blog-header.php(19): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/self-fit/app/public/index.php(17): require('/Users/helvinry...')
+#4 {main}
+  thrown in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section1.php on line 45
+
+2020-10-07T17:25:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_regular_price() in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section1.php:45
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/front-page.php(4): require_once()
+#1 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-includes/template-loader.php(106): include('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-blog-header.php(19): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/self-fit/app/public/index.php(17): require('/Users/helvinry...')
+#4 {main}
+  thrown in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section1.php on line 45
+
+2020-10-07T17:25:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_regular_price() in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section1.php:45
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/front-page.php(4): require_once()
+#1 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-includes/template-loader.php(106): include('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-blog-header.php(19): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/self-fit/app/public/index.php(17): require('/Users/helvinry...')
+#4 {main}
+  thrown in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section1.php on line 45
+
+2020-10-07T17:32:25+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section4.php:39
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/front-page.php(6): require_once()
+#1 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-includes/template-loader.php(106): include('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-blog-header.php(19): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/self-fit/app/public/index.php(17): require('/Users/helvinry...')
+#4 {main}
+  thrown in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section4.php on line 39
+
+2020-10-07T17:32:30+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section4.php:39
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/front-page.php(6): require_once()
+#1 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-includes/template-loader.php(106): include('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/self-fit/app/public/wp-blog-header.php(19): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/self-fit/app/public/index.php(17): require('/Users/helvinry...')
+#4 {main}
+  thrown in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/section4.php on line 39
+
+2020-10-07T17:51:29+00:00 CRITICAL syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING) in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/hero.php on line 23
+
+2020-10-07T17:51:32+00:00 CRITICAL syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING) in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/hero.php on line 23
+
+2020-10-07T17:51:34+00:00 CRITICAL syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING) in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/Partials/hero.php on line 23
+
+2020-10-07T20:27:45+00:00 CRITICAL require_once(): Failed opening required 'partials/pagination.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/index.php on line 36
+
+2020-10-07T20:27:48+00:00 CRITICAL require_once(): Failed opening required 'partials/pagination.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/helvinrymer/Local Sites/self-fit/app/public/wp-content/themes/selffit/index.php on line 36
+

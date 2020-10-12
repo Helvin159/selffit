@@ -1,0 +1,49 @@
+2020-10-10T22:04:08+00:00 DEBUG 
+====Stripe Version: 4.5.3====
+====Start Log====
+Error: Unable to verify domain - missing secret key.
+====End Log====
+
+
+2020-10-10T22:12:18+00:00 DEBUG 
+====Stripe Version: 4.5.3====
+====Start Log====
+Error: Unable to verify domain - We were not able to verify your domain. To verify with Apple that you control your domain, you must host the verification file at https://self-fit.local/.well-known/apple-developer-merchantid-domain-association. You can find the verification file here: https://stripe.com/files/apple-pay/apple-developer-merchantid-domain-association. For more information, see https://stripe.com/docs/stripe-js/elements/payment-request-button#verifying-your-domain-with-apple-pay.
+====End Log====
+
+
+2020-10-10T22:13:04+00:00 DEBUG 
+====Stripe Version: 4.5.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2020-10-10T22:13:18+00:00 DEBUG 
+====Stripe Version: 4.5.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2020-10-10T22:13:22+00:00 DEBUG 
+====Stripe Version: 4.5.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2020-10-10T22:15:19+00:00 DEBUG 
+====Stripe Version: 4.5.3====
+====Start Log====
+Error: Unable to verify domain - We were not able to verify your domain. To verify with Apple that you control your domain, you must host the verification file at https://self-fit.local/.well-known/apple-developer-merchantid-domain-association. You can find the verification file here: https://stripe.com/files/apple-pay/apple-developer-merchantid-domain-association. For more information, see https://stripe.com/docs/stripe-js/elements/payment-request-button#verifying-your-domain-with-apple-pay.
+====End Log====
+
+
+2020-10-10T22:16:09+00:00 DEBUG 
+====Stripe Version: 4.5.3====
+====Start Log====
+Error: Unable to verify domain - We were not able to verify your domain. To verify with Apple that you control your domain, you must host the verification file at https://self-fit.local/.well-known/apple-developer-merchantid-domain-association. You can find the verification file here: https://stripe.com/files/apple-pay/apple-developer-merchantid-domain-association. For more information, see https://stripe.com/docs/stripe-js/elements/payment-request-button#verifying-your-domain-with-apple-pay.
+====End Log====
+
+
