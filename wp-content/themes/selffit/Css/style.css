@@ -148,6 +148,14 @@ a {
   font-family: 'Krona One', sans-serif;
 }
 
+.woocommerce-pagination .current{
+  color: #000000;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Krona One', sans-serif;
+}
+
+
 .woocommerce-pagination li{
  display: inline-block;
 }
