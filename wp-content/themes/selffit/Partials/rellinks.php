@@ -41,7 +41,7 @@
             <div class="container">
               <p>
                 <?php 
-                  bloginfo('description');
+                  bloginfo('name');
                 ?>
                 <br>
                 <a href="<?php bloginfo('url')?>">
