@@ -30,7 +30,7 @@ if ( ! is_ajax() ) {
 					wc_get_template( 'checkout/payment-method.php', array( 'gateway' => $gateway ) );
 				}
 			} else {
-				echo '<li class="woocommerce-notice woocommerce-notice--info woocommerce-info">' . apply_filters( 'woocommerce_no_available_payment_methods_message', WC()->customer->get_billing_country() ? esc_html__( 'Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements.', 'woocommerce' ) : esc_html__( 'Please fill in your details above to see available payment methods.', 'woocommerce' ) ) . '</li>'; // @codingStandardsIgnoreLine
+				echo '<li class="woocommerce-notice woocommerce-notice--info woocommerce-info">' . apply_filters( 'woocommerce_no_available_payment_methods_message', WC()->customer->get_billing_country() ? esc_html__( 'Lo sentimos, parece que no hay métodos de pago disponibles para tu estado. Comuníquese con nosotros si necesita ayuda o desea hacer arreglos alternativos.', 'woocommerce' ) : esc_html__( 'Por favor, complete sus datos arriba para ver los métodos de pago disponibles.', 'woocommerce' ) ) . '</li>'; // @codingStandardsIgnoreLine
 			}
 			?>
 		</ul>
@@ -39,9 +39,9 @@ if ( ! is_ajax() ) {
 		<noscript>
 			<?php
 			/* translators: $1 and $2 opening and closing emphasis tags respectively */
-			printf( esc_html__( 'Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so.', 'woocommerce' ), '<em>', '</em>' );
+			printf( esc_html__( 'Dado que su navegador no es compatible con JavaScript o está deshabilitado, asegúrese de hacer clic en el %1$sUpdate Totals%2$s botón antes de realizar su pedido. Es posible que se le cobre más de la cantidad indicada anteriormente si no lo hace.', 'woocommerce' ), '<em>', '</em>' );
 			?>
-			<br/><button type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="<?php esc_attr_e( 'Update totals', 'woocommerce' ); ?>"><?php esc_html_e( 'Update totals', 'woocommerce' ); ?></button>
+			<br/><button type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="<?php esc_attr_e( 'Update totals', 'woocommerce' ); ?>"><?php esc_html_e( 'Actualizar totales', 'woocommerce' ); ?></button>
 		</noscript>
 
 		<?php wc_get_template( 'checkout/terms.php' ); ?>

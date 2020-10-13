@@ -5,7 +5,7 @@
 
     <?php 
     $args = array(
-      'posts_per_page' => 3,
+      'posts_per_page' => 4,
       'post_type' => 'product',
       'meta_key' => 'featured',
       'orderby' => 'meta_value',
@@ -25,7 +25,7 @@
     while( $showPost->have_posts()){
       $showPost->the_post(); ?>
       
-			<div class="col-md-4 " <?php wc_product_class( '', $product ); ?>>
+			<div class="col-md-3 " <?php wc_product_class( '', $product ); ?>>
 <div class="container productCards homeProducts text-center py-5">
         <?php
 	/**
