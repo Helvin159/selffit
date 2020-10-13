@@ -41,6 +41,7 @@ function selffit_features(){
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
   register_nav_menu('headerNav', 'Header');
+  register_nav_menu('relLinksOne', 'Related Links 1');
 
 }
 
