@@ -141,6 +141,11 @@ a {
   background-color: #ffffff;
 }
 
+.woocommerce-pagination a{
+  color: #000000;
+  text-decoration: none;
+}
+
 .woocommerce-pagination li{
  display: inline-block;
 }
