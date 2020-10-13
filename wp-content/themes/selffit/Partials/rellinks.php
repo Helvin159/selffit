@@ -46,7 +46,7 @@
                 <br>
                 <a href="<?php bloginfo('url')?>">
                   <?php 
-                    echo substr(get_bloginfo('url'), 8);
+                    echo ucfirst(substr(get_bloginfo('url'), 8));
                   ?>
                 </a>
                 <br>
