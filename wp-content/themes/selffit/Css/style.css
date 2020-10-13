@@ -141,6 +141,14 @@ a {
   background-color: #ffffff;
 }
 
+.woocommerce-pagination li{
+ display: inline-block;
+}
+
+.woocommerce-pagination ul{
+  list-style-type: none;
+}
+
 /* Shopping / Single Product */
 .entry-summary, .entry-content, .related {
   padding:2.5%;
