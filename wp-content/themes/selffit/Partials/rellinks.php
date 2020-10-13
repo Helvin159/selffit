@@ -9,7 +9,7 @@
           <div class="container py-3">
             <h6>Sobre Nosotros</h6>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequ. 
+            <?php bloginfo('description')?>
             
           </p>
           </div>
@@ -57,10 +57,6 @@
                     ?>
                   </a>
                 </span>
-                <br>
-                <?php 
-                  bloginfo('description');
-                ?>
               </p>
               
             </div>
