@@ -1,5 +1,15 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Sonsie+One&display=swap");
+@import url("https://use.typekit.net/sja0yoi.css");
+
+
+/*
+Philosopher Font
+ 
+  font-family: philosopher, sans-serif;
+  font-style: normal;
+  font-weight: 400; 
+  */
 
 /*  
 font-family: 'Krona One', sans-serif;
@@ -13,7 +23,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Sonsie One", cursive;
+  font-family: philosopher, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 a {

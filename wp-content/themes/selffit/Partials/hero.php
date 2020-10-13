@@ -10,14 +10,14 @@
 							</h2>
 						</span>
 					</h1>
-					<h5 class="headers">Muchos Sabores Y Opciones</h5>
-					<h5 class="headers" style="width:50%;">
+					<h2 class="headers">Muchos Sabores Y Opciones</h2>
+					<h3 class="headers" style="width:50%;">
 						<span>
 							<a href="<?php echo esc_url(site_url('shop'))?>">
 								Ver Más!
 							</a>
 						</span>
-					</h5>
+					</h3>
 				</div>
 			</div>
 			<div class="col-md-6">
