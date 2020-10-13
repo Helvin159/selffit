@@ -46,7 +46,7 @@
                 <br>
                 <a href="<?php bloginfo('url')?>">
                   <?php 
-                    bloginfo('url');
+                    echo substr(get_bloginfo('url'), 8);
                   ?>
                 </a>
                 <br>
