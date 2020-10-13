@@ -4,7 +4,7 @@
     <img src="<?php echo get_theme_file_uri('Assets/img/favicon1.png')?>" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
     Self-Fit
   </a>
-  <a href="<?php echo admin_url()?>">Admin</a>
+  <a href="<?php echo admin_url()?>" style="color:#ffffff;"><i class="fas fa-user-shield"></i></a>
 </nav>
 <?php wp_footer(); ?>
 

@@ -25,8 +25,8 @@
     while( $showPost->have_posts()){
       $showPost->the_post(); ?>
       
-			<div class="col-lg-4 " <?php wc_product_class( '', $product ); ?>>
-<div class="container productCards text-center py-5">
+			<div class="col-md-4 " <?php wc_product_class( '', $product ); ?>>
+<div class="container productCards homeProducts text-center py-5">
         <?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
