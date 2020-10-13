@@ -57,6 +57,10 @@
                     ?>
                   </a>
                 </span>
+                <br>
+                <?php 
+                  bloginfo('description');
+                ?>
               </p>
               
             </div>
