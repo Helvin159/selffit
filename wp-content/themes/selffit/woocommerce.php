@@ -5,7 +5,7 @@
   <div class="col-md-3 px-3 widget" >
     <?php echo get_sidebar()?>
   </div>
-  <div class="col-md-9 prodcutsCustom px-2">
+  <div class="col-md-9 prodcutsCustom " style="padding:0;margin:0;">
   <?php
 woocommerce_content();?>
   </div>
