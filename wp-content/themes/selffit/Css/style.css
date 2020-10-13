@@ -108,7 +108,9 @@ a {
   background-color: none;
 }
 
-
+.woocommerce-Price-amount {
+  padding:0 0.5rem;
+}
 .prodcutsCustom ul {
   display: inline-block;
 }
