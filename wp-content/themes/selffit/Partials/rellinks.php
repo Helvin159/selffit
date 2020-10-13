@@ -44,13 +44,19 @@
                   bloginfo('description');
                 ?>
                 <br>
-                <?php 
-                  bloginfo('url');
-                ?>
+                <a href="<?php bloginfo('url')?>">
+                  <?php 
+                    bloginfo('url');
+                  ?>
+                </a>
                 <br>
-                <?php 
-                  bloginfo('admin_email');
-                ?>
+                <span>
+                  <a href="mailto:<?php bloginfo('admin_url')?>">
+                    <?php 
+                    bloginfo('admin_email');
+                    ?>
+                  </a>
+                </span>
               </p>
               
             </div>
