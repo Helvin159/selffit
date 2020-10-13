@@ -92,6 +92,23 @@ a {
 }
 
 /* Shopping / All products */
+.onsale{
+  font-size: 35px;
+  color: white;
+  font-weight: 600;
+  background-color: red;
+  padding: .50rem;
+  border-radius: .5rem;
+}
+
+.woocommerce-loop-product__link .onsale {
+  font-size: 10px;
+  color: white;
+  font-weight: 600;
+  background-color: none;
+}
+
+
 .prodcutsCustom ul {
   display: inline-block;
 }
