@@ -31,10 +31,10 @@ if ( ! comments_open() ) {
 			$count = $product->get_review_count();
 			if ( $count && wc_review_ratings_enabled() ) {
 				/* translators: 1: reviews count 2: product name */
-				$reviews_title = sprintf( esc_html( _n( '%1$s review for %2$s', '%1$s reviews for %2$s', $count, 'woocommerce' ) ), esc_html( $count ), '<span>' . get_the_title() . '</span>' );
+				$reviews_title = sprintf( esc_html( _n( '%1$s crítica para %2$s', '%1$s críticas para %2$s', $count, 'woocommerce' ) ), esc_html( $count ), '<span>' . get_the_title() . '</span>' );
 				echo apply_filters( 'woocommerce_reviews_title', $reviews_title, $count, $product ); // WPCS: XSS ok.
 			} else {
-				esc_html_e( 'Reviews', 'woocommerce' );
+				esc_html_e( 'Críticas', 'woocommerce' );
 			}
 			?>
 		</h2>
@@ -61,7 +61,7 @@ if ( ! comments_open() ) {
 			endif;
 			?>
 		<?php else : ?>
-			<p class="woocommerce-noreviews"><?php esc_html_e( 'There are no reviews yet.', 'woocommerce' ); ?></p>
+			<p class="woocommerce-noreviews"><?php esc_html_e( 'Aún no hay reseñas.', 'woocommerce' ); ?></p>
 		<?php endif; ?>
 	</div>
 
@@ -72,13 +72,13 @@ if ( ! comments_open() ) {
 				$commenter    = wp_get_current_commenter();
 				$comment_form = array(
 					/* translators: %s is product title */
-					'title_reply'         => have_comments() ? esc_html__( 'Add a review', 'woocommerce' ) : sprintf( esc_html__( 'Be the first to review &ldquo;%s&rdquo;', 'woocommerce' ), get_the_title() ),
+					'title_reply'         => have_comments() ? esc_html__( 'Add a review', 'woocommerce' ) : sprintf( esc_html__( 'Se el primero en opinar &ldquo;%s&rdquo;', 'woocommerce' ), get_the_title() ),
 					/* translators: %s is product title */
-					'title_reply_to'      => esc_html__( 'Leave a Reply to %s', 'woocommerce' ),
+					'title_reply_to'      => esc_html__( 'Dejar una respuesta a %s', 'woocommerce' ),
 					'title_reply_before'  => '<span id="reply-title" class="comment-reply-title">',
 					'title_reply_after'   => '</span>',
 					'comment_notes_after' => '',
-					'label_submit'        => esc_html__( 'Submit', 'woocommerce' ),
+					'label_submit'        => esc_html__( 'Enviar', 'woocommerce' ),
 					'logged_in_as'        => '',
 					'comment_field'       => '',
 				);
@@ -86,13 +86,13 @@ if ( ! comments_open() ) {
 				$name_email_required = (bool) get_option( 'require_name_email', 1 );
 				$fields              = array(
 					'author' => array(
-						'label'    => __( 'Name', 'woocommerce' ),
+						'label'    => __( 'Nombre', 'woocommerce' ),
 						'type'     => 'text',
 						'value'    => $commenter['comment_author'],
 						'required' => $name_email_required,
 					),
 					'email'  => array(
-						'label'    => __( 'Email', 'woocommerce' ),
+						'label'    => __( 'Correo electrónico', 'woocommerce' ),
 						'type'     => 'email',
 						'value'    => $commenter['comment_author_email'],
 						'required' => $name_email_required,
@@ -123,11 +123,11 @@ if ( ! comments_open() ) {
 				if ( wc_review_ratings_enabled() ) {
 					$comment_form['comment_field'] = '<div class="comment-form-rating"><label for="rating">' . esc_html__( 'Your rating', 'woocommerce' ) . ( wc_review_ratings_required() ? '&nbsp;<span class="required">*</span>' : '' ) . '</label><select name="rating" id="rating" required>
 						<option value="">' . esc_html__( 'Rate&hellip;', 'woocommerce' ) . '</option>
-						<option value="5">' . esc_html__( 'Perfect', 'woocommerce' ) . '</option>
-						<option value="4">' . esc_html__( 'Good', 'woocommerce' ) . '</option>
+						<option value="5">' . esc_html__( 'Perfecto', 'woocommerce' ) . '</option>
+						<option value="4">' . esc_html__( 'Bueno', 'woocommerce' ) . '</option>
 						<option value="3">' . esc_html__( 'Average', 'woocommerce' ) . '</option>
-						<option value="2">' . esc_html__( 'Not that bad', 'woocommerce' ) . '</option>
-						<option value="1">' . esc_html__( 'Very poor', 'woocommerce' ) . '</option>
+						<option value="2">' . esc_html__( 'No tan malo', 'woocommerce' ) . '</option>
+						<option value="1">' . esc_html__( 'Muy malo', 'woocommerce' ) . '</option>
 					</select></div>';
 				}
 
@@ -138,7 +138,7 @@ if ( ! comments_open() ) {
 			</div>
 		</div>
 	<?php else : ?>
-		<p class="woocommerce-verification-required"><?php esc_html_e( 'Only logged in customers who have purchased this product may leave a review.', 'woocommerce' ); ?></p>
+		<p class="woocommerce-verification-required"><?php esc_html_e( 'Solo los clientes registrados que hayan comprado este producto pueden dejar una reseña.', 'woocommerce' ); ?></p>
 	<?php endif; ?>
 
 	<div class="clear"></div>

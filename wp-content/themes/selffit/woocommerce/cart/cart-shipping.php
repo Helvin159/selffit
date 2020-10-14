@@ -48,10 +48,10 @@ $calculator_text          = '';
 					<?php
 					if ( $formatted_destination ) {
 						// Translators: $s shipping destination.
-						printf( esc_html__( 'Shipping to %s.', 'woocommerce' ) . ' ', '<strong>' . esc_html( $formatted_destination ) . '</strong>' );
-						$calculator_text = esc_html__( 'Change address', 'woocommerce' );
+						printf( esc_html__( 'Embarcar hacia %s.', 'woocommerce' ) . ' ', '<strong>' . esc_html( $formatted_destination ) . '</strong>' );
+						$calculator_text = esc_html__( 'Cambiar dirección', 'woocommerce' );
 					} else {
-						echo wp_kses_post( apply_filters( 'woocommerce_shipping_estimate_html', __( 'Shipping options will be updated during checkout.', 'woocommerce' ) ) );
+						echo wp_kses_post( apply_filters( 'woocommerce_shipping_estimate_html', __( 'Las opciones de envío se actualizarán durante el pago.', 'woocommerce' ) ) );
 					}
 					?>
 				</p>
@@ -59,16 +59,16 @@ $calculator_text          = '';
 			<?php
 		elseif ( ! $has_calculated_shipping || ! $formatted_destination ) :
 			if ( is_cart() && 'no' === get_option( 'woocommerce_enable_shipping_calc' ) ) {
-				echo wp_kses_post( apply_filters( 'woocommerce_shipping_not_enabled_on_cart_html', __( 'Shipping costs are calculated during checkout.', 'woocommerce' ) ) );
+				echo wp_kses_post( apply_filters( 'woocommerce_shipping_not_enabled_on_cart_html', __( 'Los costos de envío se calculan durante el pago.', 'woocommerce' ) ) );
 			} else {
-				echo wp_kses_post( apply_filters( 'woocommerce_shipping_may_be_available_html', __( 'Enter your address to view shipping options.', 'woocommerce' ) ) );
+				echo wp_kses_post( apply_filters( 'woocommerce_shipping_may_be_available_html', __( 'Ingrese su dirección para ver las opciones de envío.', 'woocommerce' ) ) );
 			}
 		elseif ( ! is_cart() ) :
-			echo wp_kses_post( apply_filters( 'woocommerce_no_shipping_available_html', __( 'There are no shipping options available. Please ensure that your address has been entered correctly, or contact us if you need any help.', 'woocommerce' ) ) );
+			echo wp_kses_post( apply_filters( 'woocommerce_no_shipping_available_html', __( 'No hay opciones de envío disponibles. Asegúrese de que su dirección haya sido ingresada correctamente o contáctenos si necesita ayuda.', 'woocommerce' ) ) );
 		else :
 			// Translators: $s shipping destination.
-			echo wp_kses_post( apply_filters( 'woocommerce_cart_no_shipping_available_html', sprintf( esc_html__( 'No shipping options were found for %s.', 'woocommerce' ) . ' ', '<strong>' . esc_html( $formatted_destination ) . '</strong>' ) ) );
-			$calculator_text = esc_html__( 'Enter a different address', 'woocommerce' );
+			echo wp_kses_post( apply_filters( 'woocommerce_cart_no_shipping_available_html', sprintf( esc_html__( 'No se encontraron opciones de envío para %s.', 'woocommerce' ) . ' ', '<strong>' . esc_html( $formatted_destination ) . '</strong>' ) ) );
+			$calculator_text = esc_html__( 'Ingrese una dirección diferente', 'woocommerce' );
 		endif;
 		?>
 

@@ -157,3 +157,50 @@ register_sidebar(
   }
 
   // add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+
+
+  // Alter Billing Fields
+$note = 'Notas sobre su pedido, p. Ej. notas especiales para la entrega.';
+
+
+$address_fields = apply_filters('woocommerce_billing_fields', $address_fields);
+
+
+  // Hook in
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+// Our hooked in function - $fields is passed via the filter!
+function custom_override_checkout_fields( $fields ) {
+  // Order Form | Notes
+     $fields['order']['order_comments']['placeholder'] = 'Notas sobre su pedido, p. Ej. notas especiales para la entrega.';
+     $fields['order']['order_comments']['label'] = 'Notas de pedido';
+
+    //  Billing Form Labels
+     $fields['billing']['billing_first_name']['label'] = 'Nombre:';
+     $fields['billing']['billing_last_name']['label'] = 'Apellido:';
+     $fields['billing']['billing_company']['label'] = 'Compañia:';
+     $fields['billing']['billing_address_1']['label'] = 'Dirección:';
+     $fields['billing']['billing_address_1']['placeholder'] = 'Número de casa y nombre de la calle.';
+     $fields['billing']['billing_address_2']['label'] = 'Dirección 2:';
+     $fields['billing']['billing_address_2']['placeholder'] = 'Apartamento, suite, unidad, etcétera (opcional).';
+     $fields['billing']['billing_city']['label'] = 'Ciudad:';
+     $fields['billing']['billing_postcode']['label'] = 'Zona Postal:';
+     $fields['billing']['billing_country']['label'] = 'País:';
+     $fields['billing']['billing_state']['label'] = 'Estado:';
+     $fields['billing']['billing_email']['label'] = 'Correo Electronico:';
+     $fields['billing']['billing_phone']['label'] = 'Telefono:';
+     
+
+    //  Shipping
+    $fields['shipping']['shipping_first_name']['label'] = 'Nombre:';
+    $fields['shipping']['shipping_last_name']['label'] = 'Apellido:';
+    $fields['shipping']['shipping_company']['label'] = 'Compañia:';
+    $fields['shipping']['shipping_address_1']['label'] = 'Dirección:';
+    $fields['shipping']['shipping_address_2']['label'] = 'Dirección 2:';
+    $fields['shipping']['shipping_city']['label'] = 'Ciudad:';
+    $fields['shipping']['shipping_postcode']['label'] = 'Zona Postal:';
+    $fields['shipping']['shipping_country']['label'] = 'País:';
+    $fields['shipping']['shipping_state']['label'] = 'Estado:';
+    
+     return $fields;
+}

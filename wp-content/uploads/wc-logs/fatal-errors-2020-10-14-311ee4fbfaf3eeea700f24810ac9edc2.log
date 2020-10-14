@@ -1,0 +1,10 @@
+2020-10-14T15:00:55+00:00 CRITICAL Uncaught Error: Call to undefined function add_filters() in /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/functions.php:165
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/selffit/app/public/wp-settings.php(514): include()
+#1 /Users/helvinrymer/Local Sites/selffit/app/public/wp-config.php(79): require_once('/Users/helvinry...')
+#2 /Users/helvinrymer/Local Sites/selffit/app/public/wp-load.php(37): require_once('/Users/helvinry...')
+#3 /Users/helvinrymer/Local Sites/selffit/app/public/wp-blog-header.php(13): require_once('/Users/helvinry...')
+#4 /Users/helvinrymer/Local Sites/selffit/app/public/index.php(17): require('/Users/helvinry...')
+#5 {main}
+  thrown in /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/functions.php on line 165
+
