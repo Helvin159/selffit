@@ -134,12 +134,21 @@ register_sidebar(
     'after_title' => '</h6>'
   )
   );
-  
+
   register_sidebar(
   array(
     'name' => 'Tags Bar',
     'id' => 'tag-bar',
-    'class' => 'tagBar',
+    'class' => 'sideBar',
+    'before_title' => '<h6>',
+    'after_title' => '</h6>'
+  )
+  );
+register_sidebar(
+  array(
+    'name' => 'Recently Viewed',
+    'id' => 'revently-viewed-bar',
+    'class' => 'sideBar',
     'before_title' => '<h6>',
     'after_title' => '</h6>'
   )
