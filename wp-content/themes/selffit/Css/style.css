@@ -203,6 +203,20 @@ a {
   padding: 5%;
 }
 
+.page-title{
+  padding: 2.5% 5%;
+}
+
+.woocommerce-result-count {
+  margin: 0;
+  padding: 0 7%;
+}
+
+.orderby{
+  margin: 0 7%;
+  padding: 0.5% 1%;
+}
+
 /* Tabs */
 .fitTabs{
   width: 100%;
