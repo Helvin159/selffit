@@ -24,9 +24,9 @@ $heading = apply_filters( 'woocommerce_product_description_heading', __( 'Descri
 ?>
 
 <?php if ( $heading ) : ?>
-	<p class="py-3" >
+	<h4 class="py-3" >
 		Descripción:	
-	<?php //echo esc_html( $heading ); ?></p>
+	<?php //echo esc_html( $heading ); ?></h4>
 <?php endif; ?>
 
 <?php the_content(); ?>
