@@ -27,16 +27,18 @@ global $product;
 $columns           = apply_filters( 'woocommerce_product_thumbnails_columns', 4 );
 $post_thumbnail_id = $product->get_image_id();
 $wrapper_classes   = apply_filters(
-	'woocommerce_single_product_image_gallery_classes',
+	'woocommerce_single_product_image_gallery_classes ',
 	array(
 		'woocommerce-product-gallery',
 		'woocommerce-product-gallery--' . ( $product->get_image_id() ? 'with-images' : 'without-images' ),
 		'woocommerce-product-gallery--columns-' . absint( $columns ),
 		'images',
+		'col-md-6',
+		'text-center' 
 	)
 );
 ?>
-<div class="text-center <?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>" style="opacity: 0; transition: opacity .25s ease-in-out;">
+<div class="<?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>" style="opacity: 0; transition: opacity .25s ease-in-out;">
 	<figure class="woocommerce-product-gallery__wrapper">
 		<?php
 		if ( $product->get_image_id() ) {

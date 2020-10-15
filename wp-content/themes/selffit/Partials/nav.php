@@ -3,7 +3,7 @@
     <a class="navbar-brand" href="index.php">Logo</a>
   </div>
 </nav> -->
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#E8E9ED;">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#E9E9EA;">
   <a class="navbar-brand" href="<?php echo esc_url(site_url(''))?>">Self-Fit</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

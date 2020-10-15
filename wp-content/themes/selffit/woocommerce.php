@@ -1,7 +1,7 @@
 <?php
   get_header();
   ?>
-<div class="row mt-5">
+<div class="row storePage">
   <div class="col-md-3 px-3 widget" >
     <?php echo get_sidebar()?>
   </div>

@@ -89,6 +89,7 @@ a {
   border: 1px solid lightgrey;
   padding: 10%;
   border-radius: 5px;
+  background-color: #E9E9EA;
 }
 
 /* Checkout Page */
@@ -148,6 +149,7 @@ a {
   padding: 0.5%;
   margin: 5% 0;
   border-radius: 5px;
+  background-color: #E9E9EA;
 }
 
 .homeProducts{
@@ -195,6 +197,47 @@ a {
 .quantity{
   margin: 2.5%;
 }
+
+.singleProductHero{
+  background-color: #C6E6C8;
+  padding: 5%;
+}
+
+/* Tabs */
+.fitTabs{
+  width: 100%;
+}
+
+.fitTabs ul{
+  display: inline;
+  list-style-type: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 2.5%;
+  background-color: #F2F2F2;
+
+}
+.fitTabs li{
+display: inline-block;
+padding: 2.20%;
+}
+.fitTabs .active{
+display: inline-block;
+color: #ffffff;
+background-color: #41AD49;
+transition: .450s ease-in ;
+/* border-radius: 10px; */
+}
+
+.tabs .wc-tabs {
+display: inline-block;
+list-style-type: none;
+}
+
+.reviews_tab{
+  display: inline-block;
+}
+
 
 /* Proceed to Checkout & Checkout Button */
  .checkout-button {
@@ -252,6 +295,10 @@ a {
   margin: .5% 2.5%;
 }
 
+/* Store Page */
+.storePage{
+  background-color: #C6E6C8;
+}
 
 /* Cards */
 .cards ul {
