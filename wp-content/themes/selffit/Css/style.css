@@ -160,7 +160,7 @@ a {
   font-family: 'Krona One', sans-serif;
 }
 
-.woocommerce-pagination .current{
+.woocommerce-pagination{
   color: #000000;
   text-decoration: none;
   font-size: 25px;
@@ -175,6 +175,13 @@ a {
 
 .woocommerce-pagination ul{
   list-style-type: none;
+}
+
+.page-numbers .current{
+  color:red;
+  font-size: 23px;
+  font-family: 'Krona One',
+    sans-serif;
 }
 
 /* Shopping / Single Product */
