@@ -177,7 +177,7 @@ a {
   list-style-type: none;
 }
 
-.current{
+.page-numbers .current {
   color:red;
   font-size: 23px;
   font-family: 'Krona One',
