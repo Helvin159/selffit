@@ -1,5 +1,5 @@
 <div class="container-fluid topcategories">
-	<h1 class="py-5 text-center">DESTACADO PARA <span style="color:#009CCC;">HOMBRES</span></h1>
+	<h1 class="py-5 text-center">DESTACADO PARA <span style="color:#16B7F1;">HOMBRES</span></h1>
   <div class="container">
 	  <div class="row thumbs">
     

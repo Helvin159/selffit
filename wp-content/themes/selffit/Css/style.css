@@ -154,6 +154,7 @@ a {
   background-color: #ffffff;
 }
 
+/* Pagination */
 .woocommerce-pagination a{
   color: #000000;
   text-decoration: none;
@@ -198,7 +199,7 @@ a {
 /* Proceed to Checkout & Checkout Button */
  .checkout-button {
   margin:0 2.5%;
-  background-color:#188C48;
+  background-color:#014023;
   color: #ffffff;
   display: inline-block;
   text-align: center;
@@ -221,13 +222,11 @@ a {
 
 }
 
-
-
 /* Add to Cart Button */
 .single_add_to_cart_button
  {
   margin:0 2.5%;
-  background-color: #188C48;
+  background-color: #014023;
   color: #ffffff;
   display: inline-block;
   text-align: center;
@@ -337,8 +336,9 @@ a {
 .ads {
   height: auto;
   text-align: center;
-  background-color: lightgray;
+  background-color: #E9E9EA;
 }
+
 
 .adsbg3 {
   padding: 2.5%;
@@ -398,22 +398,6 @@ a {
   padding: 5%;
 }
 
-.article {
-  background-color: #ff6663;
-  margin: 15px 0px;
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-}
-
-.article img {
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-}
-
-.articles {
-  background-color: #fefffe;
-  padding: 3.5%;
-}
 
 /* Hero */
 .hero {
@@ -432,7 +416,7 @@ a {
 
 /* Featured Products */
 .mfeatured {
-  background-color: #009ccc;
+  background-color: #16B7F1;
   padding: 2.5%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -440,7 +424,7 @@ a {
   width: 75%;
 }
 .wfeatured {
-  background-color: #c97ec3;
+  background-color: #EE1F97;
   padding: 2.5%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -460,7 +444,7 @@ a {
 }
 
 .headers {
-  background-color: #188c48;
+  background-color: #44AE4C;
   padding: 2.5%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;

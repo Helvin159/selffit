@@ -1,6 +1,6 @@
-<div class="container-fluid topcategories">
+<div class="container-fluid  topcategories">
 <div class="container">
-	<h1 class="py-5 text-center">DESTACADO PARA <span style="color:#C97EC3"> MUJERES</span></h1>
+	<h1 class="py-5 text-center">DESTACADO PARA <span style="color:#EE1F97"> MUJERES</span></h1>
 
 	
 	<div class="row thumbs">
@@ -33,7 +33,7 @@
       </div>
       <div class="col-md-6">
         <div class="container">
-          <h5 class="mfeatured">Producto Destacado</h5>
+          <h5 class="wfeatured">Producto Destacado</h5>
           <h3><?php echo strtoupper( get_the_title() );?></h3>
           <div class="container">
             <h6>Descripción:</h6> 
