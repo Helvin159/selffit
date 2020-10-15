@@ -75,7 +75,8 @@ a {
 }
 
 .widget_product_categories a,
-.widget_recent_entries a, .widget_shopping_cart a
+.widget_recent_entries a, .widget_shopping_cart a,
+.widget_recently_viewed_products a
   {
   color: #000000;
   text-decoration: none;
