@@ -48,7 +48,7 @@ if ( ! is_ajax() ) {
 
 		<?php do_action( 'woocommerce_review_order_before_submit' ); ?>
 
-		<?php echo apply_filters( 'woocommerce_order_button_html', '<button type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Realizar Pedido" data-value="Realizar Pedido">Realizar Pedido</button>' ); // @codingStandardsIgnoreLine ?>
+		<?php echo apply_filters( 'woocommerce_order_button_html', '<button type="submit" class="checkout-button" name="woocommerce_checkout_place_order" id="place_order" value="Realizar Pedido" data-value="Realizar Pedido">Realizar Pedido</button>' ); // @codingStandardsIgnoreLine ?>
 
 		<?php do_action( 'woocommerce_review_order_after_submit' ); ?>
 

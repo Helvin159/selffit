@@ -196,10 +196,7 @@ a {
 }
 
 /* Proceed to Checkout & Checkout Button */
-.woocommerce #respond input#submit.alt,
-.woocommerce a.button.alt,
-.woocommerce button.button.alt,
-.woocommerce input.button.alt {
+ .checkout-button {
   margin:0 2.5%;
   background-color:#188C48;
   color: #ffffff;
@@ -218,14 +215,13 @@ a {
   box-shadow .15s ease-in-out;;
 }
 
-.woocommerce #respond input#submit.alt,
-.woocommerce a.button.alt,
-.woocommerce button.button.alt,
-.woocommerce input.button.alt:hover {
-  background-color: #188C48;
-  -webkit-font-smoothing: antialiased;
-  color: #fff;
+.checkout-button:hover{
+  background-color:#1EAE5A;
+  color: #ffffff;
+
 }
+
+
 
 /* Add to Cart Button */
 .single_add_to_cart_button

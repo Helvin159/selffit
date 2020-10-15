@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php
 	// phpcs:disable WordPress.Security
 	if ( 1 === intval( $total ) ) {
-		_e( 'Showing the single result', 'woocommerce' );
+		_e( 'Mostrando el único resultado', 'woocommerce' );
 	} elseif ( $total <= $per_page || -1 === $per_page ) {
 		/* translators: %d: total results */
 		printf( _n( 'Mostrando %d resultado', 'Mostrando todos los %d resultados', $total, 'woocommerce' ), $total );
