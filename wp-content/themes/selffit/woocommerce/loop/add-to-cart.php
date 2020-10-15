@@ -34,3 +34,6 @@ echo apply_filters(
 	$product,
 	$args
 );
+$link = get_the_permalink();
+echo "<br>
+		<a href=".$link." class=\"my-2 btn btn-outline-danger\">Ver Mas Detalles</a>";

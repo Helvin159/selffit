@@ -50,6 +50,7 @@ if ( $product->is_in_stock() ) : ?>
 		//echo esc_html( $product->single_add_to_cart_text() ); 
 		echo 'Añadir Al Cart';
 		?></button>
+		
 
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 	</form>
