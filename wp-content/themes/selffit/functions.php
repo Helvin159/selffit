@@ -58,9 +58,9 @@ function mytheme_add_woocommerce_support() {
           'default_rows'    => 3,
           'min_rows'        => 2,
           'max_rows'        => 8,
-          'default_columns' => 3,
+          'default_columns' => 2,
           'min_columns'     => 2,
-          'max_columns'     => 5,
+          'max_columns'     => 2,
       ),
   ) );
 }
