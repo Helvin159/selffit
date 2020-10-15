@@ -94,6 +94,10 @@ a {
   background-color: #E9E9EA;
 }
 
+.woocommerce-mini-cart__buttons .buttons button {
+  background-color: #41AD49;
+}
+
 /* Checkout Page */
 .form-row,
 .woocommerce-input-wrapper {
