@@ -84,7 +84,8 @@ a {
 .widget_product_categories,
 .widget_recent_entries,
 .widget_price_filter,
-.widget_shopping_cart {
+.widget_shopping_cart,
+.widget_recently_viewed_products {
   list-style-type: none;
   border: 1px solid lightgrey;
   padding: 10%;
