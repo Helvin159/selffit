@@ -134,6 +134,16 @@ register_sidebar(
     'after_title' => '</h6>'
   )
   );
+  
+  register_sidebar(
+  array(
+    'name' => 'Tags Bar',
+    'id' => 'tag-bar',
+    'class' => 'tagBar',
+    'before_title' => '<h6>',
+    'after_title' => '</h6>'
+  )
+  );
 
   // Filters
   remove_action( 'woocommerce_shop_loop_item_title','woocommerce_template_loop_product_title', 10 );
