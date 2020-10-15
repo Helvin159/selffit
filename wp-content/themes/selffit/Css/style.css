@@ -28,6 +28,7 @@ h6 {
   font-weight: 400;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -143,7 +144,7 @@ a {
 
 .productCards {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5) !important;
-  min-height: 450px;
+  min-height: 585px;
   padding: 0.5%;
   margin: 5% 0;
   border-radius: 5px;
