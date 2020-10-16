@@ -158,6 +158,22 @@ register_sidebar(
   remove_action( 'woocommerce_shop_loop_item_title','woocommerce_template_loop_product_title', 10 );
   add_action('woocommerce_shop_loop_item_title', 'abChangeProductsTitle', 10 );
   function abChangeProductsTitle() {
+      
+      print_r(get_field('type'));
+
+    if(get_field('type') == 'Tabletas'){
+        $type = '<i class="fas fa-capsules"></i>';
+      } else if(get_field('type') == 'Polvo'){
+        $type = '<i class="fas fa-glass-whiskey"></i>';
+      };
+    if(get_field('featured') == 'Si'){
+        $featured = '<i class="fas fa-star"></i>';
+        $isFeatured = '<li class="px-2" style="margin:0;padding:0;display:inline-block;">' . $featured .' </li>';
+      } else if(get_field('featured') == 'No'){
+        $featured = '<i class="fas fa-prescription-bottle"></i>';
+        $isFeatured = '';
+      };
+
       echo '
       <div class="container">
         <h4 class="woocommerce-loop-product_title">
@@ -166,10 +182,10 @@ register_sidebar(
         </h4>
         <p style="color:red">'. get_field('what_this_is').'</p>
           <div class="container">
-            <ul style="list-style-type:none;margin:0;padding:0;text-align:left;">
-              <li style="margin:0;padding:0;">Tipo: '. get_field('type').'</li>
-              <li style="margin:0;padding:0;">Peso: '. get_field('weight').'</li>
-              <li style="margin:0;padding:0;">Destacado: '. get_field('featured').'</li>
+          <ul style="list-style-type:none;margin:0;padding:0;text-align:left;">
+              <li class="px-2" style="margin:0;padding:0;display:inline-block;"> '. $type .'</li>
+              '. $isFeatured .'
+              <li class="px-2" style="margin:0;padding:0;display:inline-block;">Peso: '. get_field('weight').'</li>
             </ul>
           </div>
         </div>';
