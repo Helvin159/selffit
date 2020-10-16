@@ -178,6 +178,19 @@ register_sidebar(
   // add_filter( 'woocommerce_enqueue_styles', '__return_false' );
 
 
+add_filter( 'woocommerce_product_tabs', 'woo_rename_tabs', 98 );
+function woo_rename_tabs( $tabs ) {
+
+	$tabs['description']['title'] = __( 'Mas Información' );		// Rename the description tab
+	$tabs['reviews']['title'] = __( 'Críticas' );				// Rename the reviews tab
+	$tabs['additional_information']['title'] = __( 'Datos del Producto' );	// Rename the additional information tab
+
+	return $tabs;
+
+}
+
+
+
   // Alter Billing Fields
 $note = 'Notas sobre su pedido, p. Ej. notas especiales para la entrega.';
 

@@ -1,0 +1,4 @@
+2020-10-16T03:26:24+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/woocommerce.php on line 5
+
+2020-10-16T03:28:23+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/woocommerce.php on line 11
+
