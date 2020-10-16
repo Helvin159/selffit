@@ -19,5 +19,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<div class="container-fluid px-2">
-	<div class="products row py-3">
+<div class="container-fluid ">
+	<div class="products row py-3 px-2">

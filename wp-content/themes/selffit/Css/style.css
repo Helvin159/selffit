@@ -230,6 +230,7 @@ border-radius: 5px;
 
 .cardBtn{
   border: solid 1px #014023 ;
+  padding: 3.5%;
 }
 
 .cardBtn:hover {
