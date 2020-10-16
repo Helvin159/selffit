@@ -3,6 +3,7 @@
 @import url("https://use.typekit.net/sja0yoi.css");
 
 
+
 /*
 Philosopher Font
  
@@ -10,6 +11,16 @@ Philosopher Font
   font-style: normal;
   font-weight: 400; 
   */
+
+/* 
+Poiret One Regular
+
+  font-family: poiret-one,
+  sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+*/
+
 
 /*  
 font-family: 'Krona One', sans-serif;
@@ -23,9 +34,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: philosopher, sans-serif;
-  font-style: normal;
+  font-family: poiret-one,
+  sans-serif;
   font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -33,12 +45,29 @@ a {
   text-decoration: none;
 }
 
+.poiret{
+  font-family: poiret-one,
+  sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.philosopher{
+  font-family: philosopher,
+  sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .navbar-brand {
   font-family: "Sonsie One", cursive;
 }
 
 .nav-link {
-  font-family: "Krona One", sans-serif;
+  font-family: poiret-one,
+  sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 12px;
 }
 
@@ -54,8 +83,15 @@ a {
 .menu-item a {
   color: #000000;
   padding: 0 10%;
-  font-size: 13px;
-  font-family: "Krona One", sans-serif;
+  font-size: 20px;
+  font-family: poiret-one,
+  sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.menu-item a:hover{
+  text-decoration: none;
 }
 
 .cartIcon,
