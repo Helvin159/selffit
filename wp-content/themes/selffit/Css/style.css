@@ -221,7 +221,7 @@ border-radius: 5px;
 .productCards {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5) !important;
   min-height: 430px;
-  max-height: 400px;
+  max-height: 43s0px;
   padding: 0;
   margin: 2.5% 0;
   border-radius: 5px;
@@ -251,9 +251,9 @@ border-radius: 5px;
   background-color: #fff;
 }
 
-.woocommerce-LoopProduct-link .woocommerce-loop-product__link{
-  margin: 0px !important;
-  padding: 0px !important;
+.woocommerce-LoopProduct-link, .woocommerce-loop-product__link{
+  margin-top:2.5%;
+  padding-top: 2.5%; 
 }
 
 .homeProducts{

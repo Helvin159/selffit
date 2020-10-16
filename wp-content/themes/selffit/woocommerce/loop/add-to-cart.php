@@ -27,7 +27,7 @@ echo apply_filters(
 		'
 		<div class=" addToCartButtons">
 		<div class="row">
-		<div class="col-md-6 m-0 p-0 text-center"><a href="%s" data-quantity="%s" class="%s btn cardBtn" %s>Añadir Al Cart</a></div>',
+		<div class="col-lg-6 m-0 p-0 text-center"><a href="%s" data-quantity="%s" class="%s btn cardBtn" %s>Añadir Al Cart</a></div>',
 		esc_url( $product->add_to_cart_url() ),
 		esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
 		esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
@@ -39,6 +39,6 @@ echo apply_filters(
 );
 $link = get_the_permalink();
 echo "
-		<div class=\"col-md-6 m-0 p-0 text-center\"><a href=".$link." class=\"btn cardBtn\">Mas Detalles</a></div>
+		<div class=\"col-lg-6 m-0 p-0 text-center\"><a href=".$link." class=\"btn cardBtn\">Mas Detalles</a></div>
 		</div> 
 		</div>";
