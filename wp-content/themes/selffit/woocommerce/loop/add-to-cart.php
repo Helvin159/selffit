@@ -26,7 +26,8 @@ echo apply_filters(
 	sprintf(
 		'
 		<div class=" addToCartButtons">
-		<a href="%s" data-quantity="%s" class="%s btn cardBtn" %s>Añadir Al Cart</a>',
+		<div class="row">
+		<div class="col-6"><a href="%s" data-quantity="%s" class="%s btn cardBtn" %s>Añadir Al Cart</a></div>',
 		esc_url( $product->add_to_cart_url() ),
 		esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
 		esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
@@ -37,5 +38,7 @@ echo apply_filters(
 	$args
 );
 $link = get_the_permalink();
-echo "<br>
-		<a href=".$link." class=\"my-2 btn cardBtn\">Ver Mas Detalles</a> </div>";
+echo "
+		<div class=\"col-6\"><a href=".$link." class=\"btn cardBtn\">Mas Detalles</a></div>
+		</div> 
+		</div>";

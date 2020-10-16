@@ -207,8 +207,8 @@ font-size: 30px;
 }
 
 .addToCartButtons{
-padding-top: 0px;
-padding-bottom: 2.5%;
+padding-top: 5%;
+padding-bottom: 10%;
 background-color: #fff;
 border-radius: 5px;
 }
@@ -220,17 +220,24 @@ border-radius: 5px;
 
 .productCards {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5) !important;
-  min-height: 450px;
-  max-height: 480px;
+  min-height: auto;
+  max-height: 450px;
   padding: 0;
   margin: 2.5% 0;
   border-radius: 5px;
-  background-color: #E9E9EA;
+  background-image:linear-gradient(18deg, #E9E9EA, #ffffff);
 }
 
 .cardBtn{
   border: solid 1px #014023 ;
 }
+
+.cardBtn:hover {
+  background-color: #014023;
+  transition: .2s ease-in;
+  color: #fff;
+}
+
 
 .cardSubtitle{
   color: #014023;
