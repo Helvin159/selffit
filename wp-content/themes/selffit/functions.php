@@ -185,7 +185,7 @@ register_sidebar(
           <ul style="list-style-type:none;margin:0;padding:0;text-align:left;">
               <li class="px-2" style="margin:0;padding:0;display:inline-block;"> '. $type .'</li>
               '. $isFeatured .'
-              <li class="px-2" style="margin:0;padding:0;display:inline-block;">Peso: '. get_field('weight').'</li>
+              <li class="px-2" style="margin:0;padding:0;display:inline-block;"><i class="fas fa-weight"></i>: '. get_field('weight').'</li>
             </ul>
           </div>
         </div>';
