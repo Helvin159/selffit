@@ -32,10 +32,10 @@
       </div>
       <div class="col-md-6">
         <div class="container">
-          <h5 class="mfeatured">Producto Destacado</h5>
+          <h2 class="mfeatured">Producto Destacado</h2>
           <h3><?php echo strtoupper( get_the_title() );?></h3>
           <div class="container">
-            <h6>Descripción:</h6> 
+            <h4>Descripción:</h4> 
             <?php the_content();?>
           </div>
           <div class="container py-3">
