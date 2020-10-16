@@ -6,3 +6,31 @@
 
 2020-10-16T13:49:17+00:00 CRITICAL syntax error, unexpected '}' in /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/functions.php on line 165
 
+2020-10-16T15:15:06+00:00 CRITICAL Uncaught Error: Call to undefined function get_archive_url() in /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/functions.php:164
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/class-wp-hook.php(287): abChangeProductsTitle('')
+#1 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/woocommerce/content-product.php(50): do_action('woocommerce_sho...')
+#4 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/template.php(732): require('/Users/helvinry...')
+#5 /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(283): load_template('/Users/helvinry...', false)
+#6 /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/plugins/woocommer in /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/functions.php on line 164
+
+2020-10-16T15:15:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/functions.php on line 164 and exactly 1 expected in /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/link-template.php:1213
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/functions.php(164): get_post_type_archive_link()
+#1 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/class-wp-hook.php(287): abChangeProductsTitle('')
+#2 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/woocommerce/content-product.php(50): do_action('woocommerce_sho...')
+#5 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/template.p in /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/link-template.php on line 1213
+
+2020-10-16T15:15:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/functions.php on line 164 and exactly 1 expected in /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/link-template.php:1213
+Stack trace:
+#0 /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/functions.php(164): get_post_type_archive_link()
+#1 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/class-wp-hook.php(287): abChangeProductsTitle('')
+#2 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /Users/helvinrymer/Local Sites/selffit/app/public/wp-content/themes/selffit/woocommerce/content-product.php(50): do_action('woocommerce_sho...')
+#5 /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/template.p in /Users/helvinrymer/Local Sites/selffit/app/public/wp-includes/link-template.php on line 1213
+

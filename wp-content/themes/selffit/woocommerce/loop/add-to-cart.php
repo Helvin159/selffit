@@ -24,7 +24,9 @@ global $product;
 echo apply_filters(
 	'woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
 	sprintf(
-		'<a href="%s" data-quantity="%s" class="%s btn btn-outline-danger" %s>Añadir Al Cart</a>',
+		'
+		<div class=" addToCartButtons">
+		<a href="%s" data-quantity="%s" class="%s btn cardBtn" %s>Añadir Al Cart</a>',
 		esc_url( $product->add_to_cart_url() ),
 		esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
 		esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
@@ -36,4 +38,4 @@ echo apply_filters(
 );
 $link = get_the_permalink();
 echo "<br>
-		<a href=".$link." class=\"my-2 btn btn-outline-danger\">Ver Mas Detalles</a>";
+		<a href=".$link." class=\"my-2 btn cardBtn\">Ver Mas Detalles</a> </div>";

@@ -161,27 +161,35 @@ font-size: 30px;
 }
 
 /* Shopping / All products */
-.onsale{
-  font-size: 35px;
+
+
+/* Cards */
+.onsale {
+  font-size: 26px;
   color: white;
   font-weight: 600;
-  background-color: red;
+  background-color: #44AE4C;
   padding: .50rem;
   border-radius: .5rem;
+  position: absolute;
+  left: 7%;
+  top: 5%;
+  margin: 0;
+  max-height: 70px;
+  z-index: 1;
 }
 
 .woocommerce-loop-product__link .onsale {
-  font-size: 10px;
+  font-size: 15px;
   color: white;
   font-weight: 600;
   background-color: none;
+  
+  
 }
 
 .woocommerce-Price-amount {
-  padding:0 0.5rem;
-}
-.prodcutsCustom ul {
-  display: inline-block;
+  padding: 0 0.5rem;
 }
 
 .price {
@@ -189,8 +197,20 @@ font-size: 30px;
   padding: 2.5%;
 }
 
+.prodcutsCustom ul {
+  display: inline-block;
+}
+
 .woocommerce-loop-product_title{
   font-size: 20px;
+  padding: 5% 0;
+}
+
+.addToCartButtons{
+padding-top: 0px;
+padding-bottom: 2.5%;
+background-color: #fff;
+border-radius: 5px;
 }
 
 .productCards a{
@@ -200,11 +220,32 @@ font-size: 30px;
 
 .productCards {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5) !important;
-  min-height: 585px;
-  padding: 0.5%;
-  margin: 5% 0;
+  min-height: 450px;
+  max-height: 480px;
+  padding: 0;
+  margin: 2.5% 0;
   border-radius: 5px;
   background-color: #E9E9EA;
+}
+
+.cardBtn{
+  border: solid 1px #014023 ;
+}
+
+.cardSubtitle{
+  color: #014023;
+}
+
+.belowImage{
+  margin: 0px;
+  padding-top: 2.5%;
+  padding: 0;
+  background-color: #fff;
+}
+
+.woocommerce-LoopProduct-link .woocommerce-loop-product__link{
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .homeProducts{

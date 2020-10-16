@@ -19,5 +19,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<div class="container pr-5">
+<div class="container px-2">
 	<div class="products row py-5">

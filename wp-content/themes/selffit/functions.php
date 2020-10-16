@@ -75,7 +75,7 @@ add_action('woocommerce_before_shop_loop_item_title', 'my_theme_wrapper_start', 
 add_action('woocommerce_after_shop_loop_item_title', 'my_theme_wrapper_end', 10);
 
 function my_theme_wrapper_start() {
-    echo '<div class="container my-3 text-center">';
+    echo '<div class="container p-0 m-0 belowImage text-center">';
 }
 
 function my_theme_wrapper_end() {
@@ -159,28 +159,28 @@ register_sidebar(
   add_action('woocommerce_shop_loop_item_title', 'abChangeProductsTitle', 10 );
   function abChangeProductsTitle() {
       
-      print_r(get_field('type'));
-
+      $featuredArchiveLink =  esc_url(site_url('product-category/featured/'));
+      $powderArchiveLink =  esc_url(site_url('product-category/powder/'));
     if(get_field('type') == 'Tabletas'){
         $type = '<i class="fas fa-capsules"></i>';
       } else if(get_field('type') == 'Polvo'){
-        $type = '<i class="fas fa-glass-whiskey"></i>';
+        $type = '<a href="'.$powderArchiveLink.'"><i class="fas fa-glass-whiskey"></i></a>';
       };
     if(get_field('featured') == 'Si'){
         $featured = '<i class="fas fa-star"></i>';
-        $isFeatured = '<li class="px-2" style="margin:0;padding:0;display:inline-block;">' . $featured .' </li>';
+        $isFeatured = '<a href="'. $featuredArchiveLink .'"><li class="px-2" style="margin:0;padding:0;display:inline-block;">' . $featured .' </li></a>';
       } else if(get_field('featured') == 'No'){
         $featured = '<i class="fas fa-prescription-bottle"></i>';
         $isFeatured = '';
       };
 
       echo '
-      <div class="container">
+      <div class="container belowImage m-0 p-0">
         <h4 class="woocommerce-loop-product_title">
           <a href="'.get_the_permalink().'">' . strtoupper(get_the_title()) . '
           </a>
         </h4>
-        <p style="color:red">'. get_field('what_this_is').'</p>
+        <p class="cardSubtitle">'. get_field('what_this_is').'</p>
           <div class="container">
           <ul style="list-style-type:none;margin:0;padding:0;text-align:left;">
               <li class="px-2" style="margin:0;padding:0;display:inline-block;"> '. $type .'</li>
@@ -193,7 +193,7 @@ register_sidebar(
 
   // add_filter( 'woocommerce_enqueue_styles', '__return_false' );
 
-
+// Tabs
 add_filter( 'woocommerce_product_tabs', 'woo_rename_tabs', 98 );
 function woo_rename_tabs( $tabs ) {
 
