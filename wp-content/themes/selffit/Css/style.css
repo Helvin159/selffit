@@ -519,7 +519,7 @@ list-style-type: none;
    ;
 }
 
-.woocommerce-form-login__submit, .woocommerce-form-register__submit:hover {
+.woocommerce-form-login__submit:hover, .woocommerce-form-register__submit:hover {
   background-color:#1EAE5A !important;
   color: #ffffff !important;
 }
