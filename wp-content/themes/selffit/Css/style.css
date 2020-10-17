@@ -46,6 +46,10 @@ a {
   color: ;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 .poiret{
   font-family: poiret-one,
   sans-serif;
@@ -477,6 +481,54 @@ list-style-type: none;
   border-radius: 5px;
   margin: 2.5% 0;
   box-shadow: -1px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* My Account Page */
+.accountNavigation{
+  background-color: #E9E9EA;
+  border-radius: 5px;
+  padding: 5% 10%;
+  
+
+}
+
+.woocommerce-MyAccount-content{
+  background-color: #E9E9EA;
+  border-radius: 5px;
+  padding: 2.5% 2.5%;
+}
+
+.woocommerce-form-register__submit{
+  margin:0 2.5%;
+  background-color:#014023 !important;
+  color: #ffffff !important;
+  display: inline-block !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  user-select: none !important;
+  border: 1px solid transparent !important;
+  padding: .375rem .75rem !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  border-radius: .25rem !important;
+  transition: color .15s ease-in-out,
+  background-color .15s ease-in-out,
+  border-color .15s ease-in-out,
+  box-shadow .15s ease-in-out !important;
+   ;
+}
+
+.woocommerce-form-register__submit:hover{
+  background-color:#1EAE5A !important;
+  color: #ffffff !important;
+}
+
+.registerBlock,
+.loginBlock {
+  background-color: #E9E9EA;
+  border-radius: 5px;
+  padding: 2.5% 2.5%;
+  margin: 10% 0% 25% 0% ;
 }
 
 /* Carousel */

@@ -26,7 +26,7 @@ do_action( 'woocommerce_before_account_navigation' );
 <h1><?php the_title()?></h1>
 </div>
 <nav class="woocommerce-MyAccount-navigation col-md-5">
-	<ul>
+	<ul class="accountNavigation">
 		<?php foreach ( wc_get_account_menu_items() as $endpoint => $label ) : ?>
 			<li class="nav-link <?php echo wc_get_account_menu_item_classes( $endpoint ); ?>" style="font-size:20px;">
 				<a class="philosopher " href="<?php echo esc_url( wc_get_account_endpoint_url( $endpoint ) ); ?>" style="color:black;"><?php echo esc_html( $label ); ?></a>
