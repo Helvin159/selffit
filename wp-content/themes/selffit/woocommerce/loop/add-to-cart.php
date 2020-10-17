@@ -26,7 +26,7 @@ echo apply_filters(
 	sprintf(
 		'
 		<div class=" addToCartButtons">
-		<div class="row">
+		<div class="row px-3">
 		<div class="col-lg-6 m-0 p-0 text-center"><a href="%s" data-quantity="%s" class="%s btn cardBtn" %s>Añadir Al Cart</a></div>',
 		esc_url( $product->add_to_cart_url() ),
 		esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),

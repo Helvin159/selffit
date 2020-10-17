@@ -181,11 +181,10 @@ register_sidebar(
           </a>
         </h4>
         <p class="cardSubtitle">'. get_field('what_this_is').'</p>
-          <div class="container">
-          <ul style="list-style-type:none;margin:0;padding:0;text-align:left;">
-              <li class="px-2" style="margin:0;padding:0;display:inline-block;"> '. $type .'</li>
+          <div class="container text-center">
+          <ul style="list-style-type:none;margin:0;padding:0;text-align:center;">
+              <li class="text-center px-2" style="margin:0;padding:0;display:inline-block;"> '. $type .'</li>
               '. $isFeatured .'
-              <li class="px-2" style="margin:0;padding:0;display:inline-block;">Peso/Volumen: '. get_field('weight').'</li>
             </ul>
           </div>
         </div>';
