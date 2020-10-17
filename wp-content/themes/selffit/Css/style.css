@@ -276,15 +276,21 @@ border-radius: 5px;
 .woocommerce-pagination a{
   color: #000000;
   text-decoration: none;
-  font-size: 25px;
-  font-family: 'Krona One', sans-serif;
+  font-size: 35px;
+  font-family: poiret-one,
+  sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .woocommerce-pagination{
   color: #000000;
   text-decoration: none;
-  font-size: 25px;
-  font-family: 'Krona One', sans-serif;
+  font-size: 35px;
+  font-family: poiret-one,
+  sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -300,8 +306,10 @@ border-radius: 5px;
 .page-numbers .current {
   color:red;
   font-size: 23px;
-  font-family: 'Krona One',
-    sans-serif;
+  font-family: poiret-one,
+  sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Shopping / Single Product */
