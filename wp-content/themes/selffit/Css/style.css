@@ -365,8 +365,7 @@ list-style-type: none;
 
 
 /* Proceed to Checkout & Checkout Button */
- .checkout-button,
- .woocommerce-Button, .button {
+ .checkout-button {
   margin:0 2.5%;
   background-color:#014023;
   color: #ffffff;
