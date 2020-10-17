@@ -28,7 +28,7 @@ if ( $total <= 1 ) {
 	return;
 }
 ?>
-<nav class="woocommerce-pagination text-center">
+<nav class="woocommerce-pagination text-center py-5">
 	<?php
 	echo paginate_links(
 		apply_filters(
