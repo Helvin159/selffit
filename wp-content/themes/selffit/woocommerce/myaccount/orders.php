@@ -20,6 +20,10 @@
 defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_account_orders', $has_orders ); ?>
+<div class="container py-4">
+	<h1>Ordenes recientes</h1>
+</div>
+
 
 <?php if ( $has_orders ) : ?>
 

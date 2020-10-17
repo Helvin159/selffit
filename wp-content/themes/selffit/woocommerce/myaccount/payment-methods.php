@@ -25,7 +25,14 @@ $types         = wc_get_account_payment_methods_types();
 
 do_action( 'woocommerce_before_account_payment_methods', $has_methods ); ?>
 
+<div class="container pb-4">
+	<h1>Método de pago </h1>
+</div>
+
 <?php if ( $has_methods ) : ?>
+
+
+
 
 	<table class="woocommerce-MyAccount-paymentMethods shop_table shop_table_responsive account-payment-methods-table">
 		<thead>
