@@ -23,7 +23,7 @@ require_once('Partials/banner.php');
       </div>
     </div>
     <div class="container py-5">
-      <a href="<?php echo esc_url(site_url('/blog')); ?>"><i class="fas fa-arrow-circle-left"></i> Go back to Blog Posts</a>
+      <a href="<?php echo esc_url(site_url('/blog')); ?>"><i class="fas fa-arrow-circle-left"></i> Volver a las publicaciones del blog</a>
     </div>
   </div>
 </div>
