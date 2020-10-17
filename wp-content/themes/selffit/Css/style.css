@@ -498,7 +498,8 @@ list-style-type: none;
   padding: 2.5% 2.5%;
 }
 
-.woocommerce-form-register__submit{
+
+.woocommerce-form-login__submit, .woocommerce-form-register__submit {
   margin:0 2.5%;
   background-color:#014023 !important;
   color: #ffffff !important;
@@ -518,7 +519,7 @@ list-style-type: none;
    ;
 }
 
-.woocommerce-form-register__submit:hover{
+.woocommerce-form-login__submit, .woocommerce-form-register__submit:hover {
   background-color:#1EAE5A !important;
   color: #ffffff !important;
 }
