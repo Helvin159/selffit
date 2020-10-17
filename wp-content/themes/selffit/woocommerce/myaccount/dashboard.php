@@ -45,7 +45,7 @@ $allowed_html = array(
 	$dashboard_desc = __( 'From your account dashboard you can view your <a href="%1$s">recent orders</a>, manage your <a href="%2$s">billing address</a>, and <a href="%3$s">edit your password and account details</a>.', 'woocommerce' );
 	if ( wc_shipping_enabled() ) {
 		/* translators: 1: Orders URL 2: Addresses URL 3: Account URL. */
-		$dashboard_desc = __( 'From your account dashboard you can view your <a href="%1$s">recent orders</a>, manage your <a href="%2$s">shipping and billing addresses</a>, and <a href="%3$s">edit your password and account details</a>.', 'woocommerce' );
+		$dashboard_desc = __( 'Desde el panel de su cuenta puede ver sus <a href="%1$s">órdenes recientes</a>, administrar su <a href="%2$s">direcciones de envío y facturación</a>, y <a href="%3$s">editar su contraseña y los detalles de su cuenta</a>.', 'woocommerce' );
 	}
 	printf(
 		wp_kses( $dashboard_desc, $allowed_html ),
