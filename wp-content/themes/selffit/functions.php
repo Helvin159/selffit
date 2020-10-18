@@ -113,9 +113,9 @@ register_sidebar(
     'before_title' => '<h6>',
     'after_title' => '</h6>'
   )
-  );
+);
   
-  register_sidebar(
+register_sidebar(
   array(
     'name' => 'Blog Bar',
     'id' => 'blog-bar',
@@ -123,9 +123,9 @@ register_sidebar(
     'before_title' => '<h6>',
     'after_title' => '</h6>'
   )
-  );
+);
   
-  register_sidebar(
+register_sidebar(
   array(
     'name' => 'Price Bar',
     'id' => 'price-bar',
@@ -133,9 +133,9 @@ register_sidebar(
     'before_title' => '<h6>',
     'after_title' => '</h6>'
   )
-  );
+);
 
-  register_sidebar(
+register_sidebar(
   array(
     'name' => 'Tags Bar',
     'id' => 'tag-bar',
@@ -143,7 +143,8 @@ register_sidebar(
     'before_title' => '<h6>',
     'after_title' => '</h6>'
   )
-  );
+);
+
 register_sidebar(
   array(
     'name' => 'Recently Viewed',
@@ -152,7 +153,7 @@ register_sidebar(
     'before_title' => '<h6>',
     'after_title' => '</h6>'
   )
-  );
+);
 
   // Filters
   remove_action( 'woocommerce_shop_loop_item_title','woocommerce_template_loop_product_title', 10 );
@@ -192,7 +193,8 @@ register_sidebar(
 
   // add_filter( 'woocommerce_enqueue_styles', '__return_false' );
 
-// Tabs
+
+  // Tabs
 add_filter( 'woocommerce_product_tabs', 'woo_rename_tabs', 98 );
 function woo_rename_tabs( $tabs ) {
 
