@@ -70,7 +70,8 @@ font-style: normal;
   font-weight: 400;
 }
 
-.navbar-brand {
+.navbar-brand,
+.navbar-brand a {
 font-family: philosopher,
 sans-serif;
 font-style: normal;
