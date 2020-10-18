@@ -240,7 +240,7 @@ border-radius: 5px;
 .cardBtn{
   border: solid 1px #014023 !important;
   background-color: none !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   /* padding: 3.5% !important; */
   /* font-size: 15px !important; */
 }
@@ -249,7 +249,7 @@ border-radius: 5px;
   background-color: #014023 !important;
   transition: .2s ease-in !important;
   color: #fff !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 
 }
 
