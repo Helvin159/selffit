@@ -12,10 +12,9 @@
               'menu_class' => 'navbar-nav my-3'
 						));
 					?>
-        <a href="<?php echo esc_url(site_url('/cart'))?>" class="cartIcon active d-inline ">
-          <h6 class="mt-3 cart" style="font-family: 'Open Sans', sans-serif;">
-            <i class="fas fa-shopping-cart"></i>
-              Cart
-          </h6>
+        <a href="<?php echo esc_url(site_url('/cart'))?>" class="cartIcon d-inline ">
+          <h3 class="mt-3 cart">
+            <i class="fas fa-shopping-cart px-1"></i>
+          </h3>
         </a>
 </nav>

@@ -110,11 +110,18 @@ font-size: 30px;
 }
 
 .cartIcon,
-.cartIcon a {
+.cartIcon a,
+.cart{
+  font-family: poiret-one,
+  sans-serif;
+  font-weight: 400;
+  font-style: normal;
   padding: 0px;
-  margin-left: 65%;
-  float: right;
+  width: auto;
+  margin-left: 60%;
+  /* float: right; */
   color: #1EAE5A;
+  
 }
 
 /* Widgets */
