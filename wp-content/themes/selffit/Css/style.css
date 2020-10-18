@@ -457,7 +457,7 @@ list-style-type: none;
 }
 
 .count{
-  background-color: rgba(30, 174, 90, 0.2);
+  background-color: rgba(30, 174, 90, 0.01);
   border-radius: 50px;
 }
 
