@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 <div class="container pt-5 pb-3">
-	<h1>Iniciar sesión o Registrarse</h1>
+	<h1>Ingresar o Registrarse</h1>
 </div>
 
 <?php if ( 'yes' === get_option( 'woocommerce_enable_myaccount_registration' ) ) : ?>
@@ -34,7 +34,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 <?php endif; ?>
 
-		<h2><?php esc_html_e( 'Iniciar sesión', 'woocommerce' ); ?></h2>
+		<h2><?php esc_html_e( 'Ingresar', 'woocommerce' ); ?></h2>
 
 		<form class="woocommerce-form woocommerce-form-login login" method="post">
 
@@ -56,7 +56,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 					<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span><?php esc_html_e( 'Recuérdame', 'woocommerce' ); ?></span>
 				</label>
 				<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
-				<button type="submit" class="woocommerce-button button woocommerce-form-login__submit mx-3" name="login" value="<?php esc_attr_e( 'Iniciar sesión', 'woocommerce' ); ?>"><?php esc_html_e( 'Iniciar sesión', 'woocommerce' ); ?></button>
+				<button type="submit" class="woocommerce-button button woocommerce-form-login__submit mx-3" name="login" value="<?php esc_attr_e( 'Ingresar', 'woocommerce' ); ?>"><?php esc_html_e( 'Ingresar', 'woocommerce' ); ?></button>
 			</p>
 			<p class="woocommerce-LostPassword lost_password">
 				<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e( '¿Perdiste tu contraseña?', 'woocommerce' ); ?></a>
