@@ -438,9 +438,13 @@ list-style-type: none;
 
 /* Categories Page */
 
-.product-category{
-  display: inline-block;
+.product-category {
+  min-width: 10%;
+  max-width: 17%;
+  list-style-type: none;
   margin: 0 2.5%;
+  padding: 2.5% 2.5%;
+  display: inline-block;
 }
 
 .product-category a{

@@ -17,8 +17,10 @@
 
 defined( 'ABSPATH' ) || exit;
 
-global $product;
+global $product; ?>
 
+
+<?php 
 // Ensure visibility.
 if ( empty( $product ) || ! $product->is_visible() ) {
 	return;

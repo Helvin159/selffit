@@ -10,14 +10,12 @@ require_once('Partials/banner.php');
         the_title();
       ?>
     </h1>
-  </div>
-      <div class="container text-center p-3 my-4">
-        <?php 
-            the_content();
-        ?>
-      </div>
 </div>
-
+ <?php 
+                     the_content();
+                    ?> 
+</div>
+               
 
 <?php 
 require_once('Partials/rellinks.php');
