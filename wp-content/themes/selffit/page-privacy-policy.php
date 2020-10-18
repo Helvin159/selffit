@@ -2,12 +2,15 @@
   get_header();
   ?>  
 <div class="container-fluid storePage">
-  <h1><?php the_title()?></h1>
-  <!-- <div class="container p-5 prodcutsCustom " style="padding:0;margin:0;"> -->
+  <div class="container py-2">
+    <h1 class="py-3 px5"><?php the_title()?></h1>
+  </div>
+
+  <div class="container py-2 px-5">
   <?php 
     the_content();
   ?>
-  <!-- </div> -->
+  </div>
   
 </div>
 
