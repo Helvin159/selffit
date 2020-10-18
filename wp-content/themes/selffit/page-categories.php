@@ -1,6 +1,7 @@
 <?php 
 get_header();
-require_once('Partials/banner.php'); 
+
+require_once('Partials/banner.php');
 ?>
 
 <div class="container-fluid p-5 storePage">
