@@ -4,17 +4,6 @@ require_once('Partials/banner.php');
 ?>
 
 <div class="container-fluid py-5 storePage">
-  <div class="container py-5">
-  <?php 
-    if($_SERVER['REQUEST_URI'] != '/blog/'){ ?>
-    <h1>Results</h1>
-    <?php }else { ?>
-  <h1>Blog</h1>
-    <?php }
-  ?>  
-  
-
-  </div>
 <?php
 $showPost = new WP_Query(have_posts());
 

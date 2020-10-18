@@ -8,12 +8,12 @@ require_once('Partials/banner.php');
     <?php echo get_sidebar()?>
   </div>
   <div class="col-md-9">
-    <div class="container">
-    <h1 class="py-5"><?php the_title() ?></h1>
-  </div>
-    <?php 
+    <div class="container py-5 px-2">
+ <?php 
      the_content();
-    ?> 
+    ?>
+  </div>
+    
   </div>
 </div>
                
