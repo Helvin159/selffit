@@ -20,8 +20,8 @@ function selffit_files(){
       
         // CSS
         // wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/undefined'), null, '1.0', 'all');
-        wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.920bf068e75aa8ef387f.js'), NULL, '1.0', true);
-        wp_enqueue_script('main-selffit-scripts', get_theme_file_uri('/bundled-assets/scripts.0d3b97dfa6d3b9a0143c.js'), NULL, '1.0', true);
+        wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.2dcf84883bb6263fa190.js'), NULL, '1.0', true);
+        wp_enqueue_script('main-selffit-scripts', get_theme_file_uri('/bundled-assets/scripts.574d146c1ccc50cc6bf5.js'), NULL, '1.0', true);
       }
 
 
