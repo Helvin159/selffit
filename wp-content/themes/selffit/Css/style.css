@@ -108,6 +108,7 @@ color: #1EAE5A !important;
 .menu-item a {
   color: #000000;
   padding: 0 10%;
+  margin: ;
   font-size: 20px;
   font-family: poiret-one,
   sans-serif;
@@ -134,7 +135,6 @@ color: #1EAE5A !important;
   font-style: normal;
   padding: 0px;
   width: auto;
-  margin-left: 60%;
   /* float: right; */
   color: #1EAE5A;
   
