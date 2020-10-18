@@ -11,7 +11,7 @@ require_once('Partials/banner.php');
       ?>
     </h1>
   </div>
-      <div class="container text-center m-auto p-3">
+      <div class="container text-center p-3 my-4">
         <?php 
             the_content();
         ?>
