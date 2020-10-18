@@ -1,19 +1,20 @@
-/* Google Fonts */
+/* Adobe Fonts */
 @import url("https://use.typekit.net/sja0yoi.css");
 
 
 
 
 /*
-Philosopher Font
+  San Serifs
+
+  Philosopher Font:
  
   font-family: philosopher, sans-serif;
   font-style: normal;
   font-weight: 400; 
-  */
+ 
 
-/* 
-Poiret One Regular
+  Poiret One Regular:
 
   font-family: poiret-one,
   sans-serif;
@@ -22,10 +23,17 @@ Poiret One Regular
 */
 
 
-/*  
-font-family: 'Krona One', sans-serif;
-font-family: 'Sonsie One', cursive;  
-*/
+  /* 
+  Serif
+
+  PT Serif
+  font-family: pt-serif,
+  serif;
+  font-weight: 400;
+  font-style: normal; 
+  */
+
+
 
 /* Typography */
 h1,

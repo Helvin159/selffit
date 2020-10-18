@@ -17,4 +17,5 @@
             <i class="fas fa-shopping-cart px-1"></i>
           </h3>
         </a>
+        </div>
 </nav>
