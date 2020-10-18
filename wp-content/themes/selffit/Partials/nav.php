@@ -22,15 +22,6 @@
               'menu_class' => 'navbar-nav'
 						));
 					?>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="<?php echo esc_url(site_url('/shop'))?>">Shop</a>
-      </li>
-    </ul>
-  </div>
-  <form class="form-inline">
-  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form> -->
         <a href="<?php echo esc_url(site_url('/cart'))?>" class="cartIcon active d-inline ">
           <h6 class="mt-3 cart" style="font-family: 'Open Sans', sans-serif;">
             <i class="fas fa-shopping-cart"></i>
