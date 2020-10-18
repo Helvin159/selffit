@@ -376,7 +376,8 @@ list-style-type: none;
 
 
 /* Proceed to Checkout & Checkout Button */
- .checkout-button {
+ .checkout-button,
+ .wc-backward {
   margin:0 2.5%;
   background-color:#014023;
   color: #ffffff;
@@ -395,7 +396,8 @@ list-style-type: none;
   box-shadow .15s ease-in-out;;
 }
 
-.checkout-button:hover{
+.checkout-button:hover,
+.wc-backward:hover {
   background-color:#1EAE5A;
   color: #ffffff;
 
