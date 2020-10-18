@@ -9,7 +9,7 @@
               'theme_location' => 'headerNav',
               // 'items_wrap' => false,
               'container' => false,
-              'menu_class' => 'navbar-nav mx-3 my-3'
+              'menu_class' => 'navbar-nav my-3'
             ));
             ?>
   </div>
