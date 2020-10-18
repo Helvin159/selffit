@@ -12,11 +12,11 @@ require_once('Partials/banner.php');
       ?>
     </h1>
   </div>
-      <div class="container text-center m-auto">
+
         <?php 
-            the_content()
+            the_content();
         ?>
-      </div>
+
 </div>
 
 
