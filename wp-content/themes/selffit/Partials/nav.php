@@ -10,8 +10,8 @@
               // 'items_wrap' => false,
               'container' => false,
               'menu_class' => 'navbar-nav mx-3 my-3'
-						));
-          ?>
+            ));
+            ?>
   </div>
   
 </nav>
