@@ -3,9 +3,17 @@ get_header();
 require_once('Partials/banner.php');
 ?>
 
-<div class="container-fluid py-5">
+<div class="container-fluid py-5 storePage">
   <div class="container py-5">
-    <h1>Blog</h1>
+  <?php 
+    if($_SERVER['REQUEST_URI'] != '/blog/'){ ?>
+    <h1>Results</h1>
+    <?php }else { ?>
+  <h1>Blog</h1>
+    <?php }
+  ?>  
+  
+
   </div>
 <?php
 $showPost = new WP_Query(have_posts());
@@ -14,7 +22,7 @@ while($showPost->have_posts()){
   $showPost->the_post(); ?>
   <div class="container my-5">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 blogPost">
         <img class="img-fluid" src="<?php the_post_thumbnail_url('blogSquare')?>" alt="" >
       </div>
       <div class="col-md-8">

@@ -238,15 +238,15 @@ border-radius: 5px;
 }
 
 .cardBtn{
-  border: solid 1px #014023 ;
-  padding: 3.5%;
-  font-size: 15px;
+  border: solid 1px #014023 !important;
+  padding: 3.5% !important;
+  font-size: 15px !important;
 }
 
 .cardBtn:hover {
-  background-color: #014023;
-  transition: .2s ease-in;
-  color: #fff;
+  background-color: #014023 !important;
+  transition: .2s ease-in !important;
+  color: #fff !important;
 }
 
 
