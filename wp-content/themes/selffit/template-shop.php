@@ -4,7 +4,7 @@ Template Name: Shop Page
 */
 
 get_header(); ?>
-<div class="container-fluid py-5">
+<div class="container-fluid py-5 storePage">
 
   
 <h1><?php the_title()?></h1>
