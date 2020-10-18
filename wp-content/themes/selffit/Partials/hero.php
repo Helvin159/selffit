@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-6 p-2">
 				<div class="container m-5 p-2 ">
-					<h1 class="philosopher">Self Fit <br> 
+					<h1 class="philosopher display-1">Self Fit <br> 
 						<span>
 							<h2 class="philosopher">
 								Alternativa Sana
