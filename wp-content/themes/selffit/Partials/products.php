@@ -1,7 +1,7 @@
 <div class="container-fluid productsTwo">
 	<div class="row">
 		<div class="col-2 text-center ">
-			<img src="<?php echo get_theme_file_uri('Assets/img/1.jpg')?>" alt="" style="width:50%; border-radius:5px; box-shadow:2px 2px 8px rgba(0,0,0,0.5)">
+			<img src="<?php echo get_theme_file_uri('Assets/img/1.jpg')?>" alt="<?php the_title()?>" style="width:50%; border-radius:5px; box-shadow:2px 2px 8px rgba(0,0,0,0.5)">
 		</div>
 		<div class="col-10">
 			<form class="form-inline" action="products.php" method="get">
@@ -55,11 +55,11 @@
 			<h1>ads</h1>
 			<div class="container my-5">
 				<h3>Ad 1</h3>
-				<img class="img-fluid" src="<?php echo get_theme_file_uri('Assets/img/prod1.png')?>" alt="">
+				<img class="img-fluid" src="<?php echo get_theme_file_uri('Assets/img/prod1.png')?>" alt="<?php the_title()?>">
 			</div>
 			<div class="container my-5">
 				<h3>Ad 2</h3>
-				<img class="img-fluid" src="<?php echo get_theme_file_uri('Assets/img/prod1.png')?>" alt="">
+				<img class="img-fluid" src="<?php echo get_theme_file_uri('Assets/img/prod1.png')?>" alt="<?php the_title()?>">
 			</div>
 		</div>
 	</div>

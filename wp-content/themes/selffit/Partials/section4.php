@@ -29,7 +29,7 @@
       $showCustomPost->the_post(); 
       ?>
       <div class="col-md-6">
-        <img class="img-fluid p-3" src="<?php the_post_thumbnail_url()?>" style=" max-width:500px"  >
+        <img class="img-fluid p-3" src="<?php the_post_thumbnail_url()?>" alt="<?php the_title()?>" style=" max-width:500px"  >
       </div>
       <div class="col-md-6">
         <div class="container">

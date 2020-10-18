@@ -12,7 +12,7 @@ while($showPost->have_posts()){
   <div class="container my-5">
     <div class="row">
       <div class="col-md-4 blogPost">
-        <img class="img-fluid" src="<?php the_post_thumbnail_url('blogSquare')?>" alt="" >
+        <img class="img-fluid" alt="<?php the_title()?>" src="<?php the_post_thumbnail_url('blogSquare')?>" alt="" >
       </div>
       <div class="col-md-8">
         <div class="container p-2">

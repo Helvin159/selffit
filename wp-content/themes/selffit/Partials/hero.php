@@ -18,7 +18,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="container p-2">
-					<img src="<?php echo get_theme_file_uri('Assets/img/9.png')?>" alt="" class="img-fluid">
+					<img src="<?php echo get_theme_file_uri('Assets/img/9.png')?>" alt="<?php the_title()?>" class="img-fluid">
 				</div>
 			</div>
 		</div>

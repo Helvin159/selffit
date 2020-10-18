@@ -10,7 +10,7 @@
       <div class="col-sm-3 cards">
         <div class="container card">
           <div class="container">
-            <img src="<?php echo get_theme_file_uri('Assets/img/8.JPG')?>" style="max-width:150px; border-radius:10px;">
+            <img src="<?php echo get_theme_file_uri('Assets/img/8.JPG')?>" alt="<?php the_title()?>" style="max-width:150px; border-radius:10px;">
           </div>
           <div class="container">
             <h4>This will </h4>
@@ -33,7 +33,7 @@
       <div class="col-sm-3 cards">
       <div class="container card">
         <div class="container">
-          <img src="<?php echo get_theme_file_uri('Assets/img/8.JPG')?>" style="max-width:150px; border-radius:10px;">
+          <img src="<?php echo get_theme_file_uri('Assets/img/8.JPG')?>" alt="<?php the_title()?>" style="max-width:150px; border-radius:10px;">
         </div>
         <div class="container">
           <h4>With Different</h4>

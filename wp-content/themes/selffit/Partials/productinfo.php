@@ -2,7 +2,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="container">
-          <img src="<?php echo get_theme_file_uri('Assets/img/8.png')?>" alt="" class="img-fluid">
+          <img src="<?php echo get_theme_file_uri('Assets/img/8.png')?>" alt="<?php the_title()?>" class="img-fluid">
         </div>
       </div>
       <div class="col-md-6 p-5">
