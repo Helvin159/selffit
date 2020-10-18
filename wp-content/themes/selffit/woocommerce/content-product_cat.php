@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<div class="col-md-3 my-2 " <?php wc_product_cat_class( '', $category ); ?>>
+<div class="col-md-3 my-2 text-center" <?php wc_product_cat_class( '', $category ); ?>>
 	<?php
 	/**
 	 * woocommerce_before_subcategory hook.
