@@ -239,7 +239,7 @@ border-radius: 5px;
 
 .cardBtn{
   border: solid 1px #014023 !important;
-  background-color: none !important;
+  background-color: rgba(255,255,255,0.0001) !important;
   font-weight: 400 !important;
   /* padding: 3.5% !important; */
   /* font-size: 15px !important; */
