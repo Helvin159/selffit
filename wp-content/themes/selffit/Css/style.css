@@ -40,7 +40,6 @@ h6 {
   font-style: normal;
 }
 
-
 a {
   text-decoration: none;
   color: ;
@@ -56,7 +55,6 @@ a:hover{
   font-weight: 400;
   font-style: normal;
 }
-
 
 .page-generator__output, p{
 font-family: pt-serif,
@@ -437,6 +435,28 @@ list-style-type: none;
 .storePage{
   background-color: #C6E6C8;
 }
+
+/* Categories Page */
+
+.product-category{
+  display: inline-block;
+  margin: 0 2.5%;
+}
+
+.product-category a{
+  text-decoration: none;
+  color: #000000;
+  font-family: poiret-one,
+  sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.count{
+  background-color: rgba(30, 174, 90, 0.2);
+  border-radius: 50px;
+}
+
 
 /* Cards */
 .cards ul {
