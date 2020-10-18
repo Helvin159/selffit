@@ -75,7 +75,8 @@ font-family: philosopher,
 sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 30px;
+font-size: 33px;
+color: #1EAE5A !important;
 }
 
 .nav-link {
