@@ -127,15 +127,18 @@ color: #1EAE5A !important;
 }
 
 .cartIcon,
-.cartIcon a,
-.cart{
+.cartIcon a{
   font-family: poiret-one,
   sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 0px;
+  padding: 0;
   width: auto;
-  /* float: right; */
+  font-size: 25px;
+  /* position: absolute;
+  right: 2%;
+  top: 10%; */
+  text-align: right;
   color: #1EAE5A;
   
 }
@@ -742,3 +745,5 @@ body,
 html {
   overflow-x: hidden;
 }
+
+

@@ -11,11 +11,7 @@
               'container' => false,
               'menu_class' => 'navbar-nav mx-3 my-3'
 						));
-					?>
-        <a href="<?php echo esc_url(site_url('/cart'))?>" class="cartIcon d-inline ">
-          <h3 class="mt-3 cart">
-            <i class="fas fa-shopping-cart px-1"></i>
-          </h3>
-        </a>
+          ?>
   </div>
+  
 </nav>
