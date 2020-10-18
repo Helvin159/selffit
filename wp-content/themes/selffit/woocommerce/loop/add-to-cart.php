@@ -27,7 +27,7 @@ echo apply_filters(
 		'
 		<div class=" addToCartButtons">
 		<div class="row px-3">
-		<div class="col-lg-6 m-0 p-0 text-center"><a href="%s" data-quantity="%s" class="%s btn cardBtn" %s>Añadir Al Cart</a></div>',
+		<div class="col-lg-6 m-0 p-0 text-center"><a href="%s" data-quantity="%s" class="%s btn cardBtn py-1 px-5" %s style="font-size:20px;color:#1EAE5A;"><i class="fas fa-cart-plus"></i></a></div>',
 		esc_url( $product->add_to_cart_url() ),
 		esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
 		esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),

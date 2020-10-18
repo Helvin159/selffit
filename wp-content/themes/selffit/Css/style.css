@@ -212,7 +212,7 @@ font-size: 30px;
 .addToCartButtons{
 padding-top: 5%;
 padding-bottom: 0px;
-background-color: #fff;
+background-color: #fff !important;
 border-radius: 5px;
 }
 
