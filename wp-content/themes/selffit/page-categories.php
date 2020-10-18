@@ -1,9 +1,7 @@
 <?php 
-get_header();
+get_header();?>
 
-require_once('Partials/banner.php');
-?>
-
+<?php require_once('Partials/banner.php');?>
 <div class="container-fluid p-5 storePage">
   <div class="container py-5"> 
     <h1>
