@@ -1,10 +1,8 @@
 <?php 
-get_header();?>
-<div class="fluid-container pb-2 hero" style="height:50vh; width:100vw;">
-	<div class="container">
-		
-	</div>
-</div>
+get_header();
+require_once('Partials/banner.php');
+?>
+
 <div class="container-fluid p-5 storePage">
   <div class="container py-5"> 
     <h1>
