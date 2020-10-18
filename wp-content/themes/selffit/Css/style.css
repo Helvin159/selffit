@@ -107,6 +107,8 @@ font-size: 30px;
 
 .menu-item a:hover{
   text-decoration: none;
+  transition: .2s ease-in;
+  color: #1EAE5A;
 }
 
 .cartIcon,
