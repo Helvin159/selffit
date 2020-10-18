@@ -78,6 +78,22 @@ font-style: normal;
   font-weight: 400;
 }
 
+/* Horizontal Line For Hero & Hero */
+.heroHr{
+  width: 95%;
+  background-color: rgba(255,255,255, .3);
+  height: 2px;
+  border-radius: 15px;
+}
+
+.bannerHr{
+  width: 55%;
+  background-color: rgba(255, 255, 255, .3);
+  height: 2px;
+  border-radius: 15px;
+}
+
+/* Navbar CSS */
 .navbar-brand,
 .navbar-brand a {
 font-family: philosopher,

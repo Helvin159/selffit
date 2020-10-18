@@ -3,10 +3,13 @@
 		<?php 
 		if($_SERVER['REQUEST_URI'] == '/blog/'){ ?>
 			<h1 class="display-1 mt-4">Blog</h1>
+			<hr class="bannerHr">
 		<?php }else if($_SERVER['REQUEST_URI'] == '/shop/'){ ?>
 			<h1 class="display-1 mt-4">Tienda</h1>
+			<hr class="bannerHr">
 		<?php }else{ ?>
 			<h1 class="display-1 mt-4"><?php the_title()?></h1>
+			<hr class="bannerHr">
 		<?php }
 		?>
 	</div>

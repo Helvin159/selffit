@@ -3,17 +3,13 @@
 		<div class="row">
 			<div class="col-md-6 p-2">
 				<div class="container m-5 p-2 ">
-					<h1 class="philosopher display-1">Self Fit <br> 
+					<h1 class="philosopher display-1">Self Fit</h1>
+					<hr class="heroHr">
+					<h1>Alternativa Sana</h1>
+					<h1 class="headers" >Muchos Sabores Y Opciones</h2>
+					<h2 class="headers" style="width:35%;">
 						<span>
-							<h2 class="philosopher">
-								Alternativa Sana
-							</h2>
-						</span>
-					</h1>
-					<h2 class="headers philosopher" >Muchos Sabores Y Opciones</h2>
-					<h3 class="headers" style="width:50%;">
-						<span>
-							<a class="philosopher" href="<?php echo esc_url(site_url('shop'))?>">
+							<a href="<?php echo esc_url(site_url('shop'))?>">
 								Ver Más!
 							</a>
 						</span>
