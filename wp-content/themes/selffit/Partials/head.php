@@ -1,7 +1,7 @@
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="Keywords" content="Fitness, self fit, fit, nutrition, workout, body, muscle, muscles, motivation, dedication, dominican, republic, dominican republic, bonao, selffit, weight loss, weight gain, weight">
+	<meta name="Keywords" content="Fitness, self fit, fit, nutricion, ejercisio, cuerpo, musculo, musculos, motivación, dedicación, dominican, republic, dominican republic, bonao, selffit, real fitness bonao, perdida de peso, ganar peso, peso, supplements, twinlab, muscletech, signature, gnc, carbomax, weight loss, natural, remedies">
 	<meta name="Description" content="Self-Fit Where You Get The Best!">
 	<meta name="Author" content="Broker">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
