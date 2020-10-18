@@ -111,6 +111,10 @@ font-size: 30px;
   color: #1EAE5A;
 }
 
+.current-menu-item a{
+    color: #1EAE5A !important;
+}
+
 .cartIcon,
 .cartIcon a,
 .cart{
