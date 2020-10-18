@@ -126,7 +126,11 @@ color: #1EAE5A !important;
     color: #1EAE5A !important;
 }
 
-.cartIcon,
+.cartIcon, .cartIcon a{
+color:#1EAE5A;
+}
+
+/* .cartIcon,
 .cartIcon a{
   font-family: poiret-one,
   sans-serif;
@@ -135,13 +139,13 @@ color: #1EAE5A !important;
   padding: 0;
   width: auto;
   font-size: 25px;
-  /* position: absolute;
+  position: absolute;
   right: 2%;
-  top: 10%; */
+  top: 10%;
   text-align: right;
   color: #1EAE5A;
   
-}
+} */
 
 /* Widgets */
 .widget ul,
