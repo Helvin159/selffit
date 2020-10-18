@@ -9,7 +9,7 @@
               'theme_location' => 'headerNav',
               // 'items_wrap' => false,
               'container' => false,
-              'menu_class' => 'navbar-nav my-3'
+              'menu_class' => 'navbar-nav px-2 my-3'
 						));
 					?>
         <a href="<?php echo esc_url(site_url('/cart'))?>" class="cartIcon d-inline ">
@@ -17,5 +17,5 @@
             <i class="fas fa-shopping-cart px-1"></i>
           </h3>
         </a>
-        </div>
+  </div>
 </nav>
