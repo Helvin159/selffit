@@ -6,7 +6,7 @@
 					<h1 class="philosopher display-1">Self Fit</h1>
 					<hr class="heroHr">
 					<h1>Alternativa Sana</h1>
-					<h2 class="headers" >Muchos Sabores Y Opciones</h2>
+					<h2 class="headers" style="width:85%;">Muchos Sabores Y Opciones</h2>
 					<h2 class="headers" style="width:35%;">
 						<span>
 							<a href="<?php echo esc_url(site_url('shop'))?>">
