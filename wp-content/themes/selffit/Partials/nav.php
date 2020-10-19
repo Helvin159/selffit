@@ -13,8 +13,8 @@
             ));
             ?>
   </div>
-  <!-- <div  class="nav-item ">
+  <div  class="nav-item ">
   <i id="search" class="fas fa-search searchBtn px-5" > </i>
-  </div> -->
+  </div>
   
 </nav>
