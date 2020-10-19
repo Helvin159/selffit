@@ -54,14 +54,14 @@ class Search{
             </div>
             ${result.length ? '<div class="row"><div class="col-md-12"><h3>Productos</h3><br><div class="row">': '<p>No existen resultados para esa busqueda.</p>'}
                         ${result.map(item => `
-                        <div class="col-md-3 my-2 text-center">
-                            <h4 class="poiret"><span><a href="${item.link}">${item.title.rendered}</a></span></h4>
+                        <div class="col-md-3 py-5 text-center ">
+                            <h4 class="poiret"><span><a href="${item.link}">${item.title.rendered} </a></span></h4>
                         </div>`)} 
             ${result.length ? '</div></div></div>' : ''}
             `)
         })
     }
-    
+
 
     keyCloser(e){
         // 27
