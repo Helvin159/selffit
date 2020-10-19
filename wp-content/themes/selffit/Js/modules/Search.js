@@ -46,7 +46,7 @@ class Search{
     }
 
     getResults(){
-        this.resultsDiv.html('<div class="container py-5"><h1 >Próximamente Disponible...</h1></div>');
+        this.resultsDiv.html('<div class="container py-5"><h1 >Disponible Próximamente...</h1></div>');
         this.isSpinnerVisible = false;
     }
 
