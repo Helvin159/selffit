@@ -72,6 +72,13 @@ button, .button, .cardBtn, .btn{
   font-style: normal;
 }
 
+.philosopher {
+  font-family: philosopher,
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .page-generator__output, p{
 font-family: pt-serif,
 serif;
@@ -79,12 +86,7 @@ font-weight: 400;
 font-style: normal;
 }
 
-.philosopher{
-  font-family: philosopher,
-  sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
+
 
 /* Icons */
 .fa-chevron-circle-right,
