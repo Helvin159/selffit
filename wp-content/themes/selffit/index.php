@@ -18,7 +18,7 @@ while($showPost->have_posts()){
         <div class="container p-2">
           <h3 class="py-3"><a  href="<?php the_permalink()?>"><?php the_title()?></a></h3>
           <div class="container">
-            <?php echo substr(get_the_excerpt(),0,425);?>
+            <p><?php echo substr(get_the_excerpt(),0,425);?></p>
             <br>
             <div class="container my-1">
               <a href="<?php the_permalink()?>"> Ver Entrada Completa <i class="fas fa-long-arrow-alt-right"></i></a>              
