@@ -1,7 +1,13 @@
 <?php
   get_header();
-  require_once('Partials/banner.php');
   ?>
+<!-- Banner -->
+<div class="fluid-container hero" style="height:40vh; width:100vw;">
+	<div class="container text-center p-5"> 
+			<h1 class="display-1 mt-4">Tienda</h1>
+			<hr class="bannerHr">
+	</div>
+</div>
 <div class="row storePage">
   <div class="col-md-3 d-none d-sm-block  px-3 widget" >
     <?php echo get_sidebar()?>

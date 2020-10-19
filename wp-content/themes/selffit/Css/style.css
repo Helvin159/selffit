@@ -781,15 +781,18 @@ list-style-type: none;
   
 
 .searchBar{
-  width: 83%;
+  width: 100%;
   border: none;
-  height: 55px;
+  height: 78px;
   padding: 0 2.5%;
   font-size: 25px;
-  position: absolute;
+  position: relative;
   color: #014023;
   top: 0;
+  left: 0;
+  /* right: 10%; */
   border-radius: 10px;
+  /* z-index: -1; */
 }
 
 .searchIcon{
@@ -804,7 +807,7 @@ list-style-type: none;
   font-size: 40px;
   padding: 0 2.5%;
   padding-top: 1%;
-  position: absolute;
+  /* position: absolute; */
   /* top: ; */
   right: 0;
   cursor: pointer;

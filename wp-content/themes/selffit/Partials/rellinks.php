@@ -3,7 +3,7 @@
       <div class="col-md-6">
           <div class="container">
             <div class="container">
-              <h4>Self Fit</h4>
+              <h1>Self Fit</h1>
             </div>
           </div>
           <div class="container py-3">
