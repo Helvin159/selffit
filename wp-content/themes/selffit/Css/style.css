@@ -776,9 +776,72 @@ list-style-type: none;
   color: white;
 }
 
+
+/* Overlay */
+.searchBar{
+  width: 83%;
+  border: none;
+  height: 55px;
+  padding: 0 2.5%;
+  font-size: 25px;
+  position: absolute;
+  color: #014023;
+  top: 0;
+  border-radius: 10px;
+}
+
+.searchIcon{
+  font-size: 40px;
+  padding: 0 2.5%;
+  padding-top: 1%;
+  color: #1EAE5A;
+}
+
+.closeBtn{
+  color: #1EAE5A;
+  font-size: 40px;
+  padding: 0 2.5%;
+  padding-top: 1%;
+  position: absolute;
+  /* top: ; */
+  right: 0;
+  cursor: pointer;
+}
+
+.searchBtn{
+  cursor: pointer;
+  font-size:30px;
+  color:#1EAE5A;
+}
+
+.overlay{
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(244, 244, 244, 0.8);
+  /* Black background with opacity */
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.overlayOn{
+  display: block;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+
 body,
 html {
   overflow-x: hidden;
 }
-
-
