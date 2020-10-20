@@ -49,7 +49,7 @@ class Search{
         $.getJSON('https://selffitdr.com/wp-json/wp/v2/product?search=' + this.searchBar.val(), result => {
         this.resultsDiv.html(`
             <div class="container px-5 py-3">
-                <h1>Search Results</h1>
+                <h1>Resultados</h1>
                 <hr class="searchHr">
             </div>
             ${result.length ? '<div class="row"><div class="col-md-12"><h3>Productos</h3><br><div class="row">' : '<p>No existen resultados para esa busqueda.</p>'}
