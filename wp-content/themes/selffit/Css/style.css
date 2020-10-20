@@ -780,10 +780,14 @@ list-style-type: none;
 
 
 /* Overlay */
-  
+.searchHr {
+  height: 5px;
+  border-radius: 15px;
+}  
 
 .searchBar{
-  width: 100%;
+  width: auto;
+  min-width: 100%;
   border: none;
   height: 78px;
   padding: 0 2.5%;
@@ -795,6 +799,10 @@ list-style-type: none;
   /* right: 10%; */
   border-radius: 10px;
   /* z-index: -1; */
+  font-family: pt-serif,
+  serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .searchIcon{

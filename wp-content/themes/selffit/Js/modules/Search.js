@@ -48,17 +48,18 @@ class Search{
     getResults(){
         $.getJSON('https://selffitdr.com/wp-json/wp/v2/product?search=' + this.searchBar.val(), result => {
         this.resultsDiv.html(`
-            <div class="container p-5">
+            <div class="container px-5 py-3">
                 <h1>Search Results</h1>
                 <hr class="searchHr">
             </div>
             ${result.length ? '<div class="row"><div class="col-md-12"><h3>Productos</h3><br><div class="row">': '<p>No existen resultados para esa busqueda.</p>'}
                         ${result.map(item => `
                         <div class="col-md-3 py-5 text-center ">
-                            <h4 class="poiret"><span><a href="${item.link}">${item.title.rendered} </a></span></h4>
+                            <h4 class="poiret"><span><a href="${item.link}">${item.title.rendered}</a></span></h4>
+                            <hr class="w-75">
                         </div>`)} 
             ${result.length ? '</div></div></div>' : ''}
-            `)
+        `)
         })
     }
 
