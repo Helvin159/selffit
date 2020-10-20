@@ -12,9 +12,10 @@
               'menu_class' => 'navbar-nav my-3'
             ));
             ?>
+            
   </div>
   <div  class="nav-item ">
-  <i id="search" class="fas fa-search searchBtn px-5" > </i>
+  <i id="search" class="fas fa-search searchBtn px-5"> </i>
   </div>
   
 </nav>

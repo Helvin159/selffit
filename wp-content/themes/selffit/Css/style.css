@@ -789,8 +789,8 @@ list-style-type: none;
   width: auto;
   min-width: 100%;
   border: none;
-  height: 78px;
-  padding: 0 2.5%;
+  height: 100%;
+  padding: 1.7% 1.2%;
   font-size: 25px;
   position: relative;
   color: #014023;
@@ -842,6 +842,7 @@ list-style-type: none;
   left: 0;
   right: 0;
   bottom: 0;
+  overflow: scroll;
   background-color: rgba(244, 244, 244, 0.96);
   /* Black background with opacity */
   z-index: 2;
