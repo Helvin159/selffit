@@ -52,9 +52,9 @@ function mytheme_add_woocommerce_support() {
       'single_image_width'    => 300,
 
       'product_grid'          => array(
-          'default_rows'    => 3,
-          'min_rows'        => 3,
-          'max_rows'        => 8,
+          'default_rows'    => 2,
+          'min_rows'        => 2,
+          'max_rows'        => 7,
           'default_columns' => 2,
           'min_columns'     => 4,
           'max_columns'     => 5,
