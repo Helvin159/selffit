@@ -46,7 +46,7 @@ class Search{
     }
 
     getResults(){
-        $.getJSON('https://selffitdr.com/wp-json/wp/v2/product?search=' + this.searchBar.val(), result => {
+        $.getJSON('http://self-fit.local/wp-json/wp/v2/product?search=' + this.searchBar.val(), result => {
         this.resultsDiv.html(`
             <div class="container px-5 py-3">
                 <h1>Resultados</h1>

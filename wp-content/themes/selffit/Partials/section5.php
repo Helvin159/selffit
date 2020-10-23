@@ -1,4 +1,6 @@
-<div class="container-fluid reviews py-5">
+<div class="container-fluid reviews py-5" style="background: url(<?php echo get_theme_file_uri('Assets/img/lpbg.jpeg') ?>);
+  background-size: cover;
+  background-position: center center;">
   <h1>Opiniones De Los Clientes</h1>
   <div class="container">
     <div class="row">

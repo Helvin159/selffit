@@ -26,8 +26,8 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<div class="col-md-4 " <?php wc_product_class( '', $product ); ?>>
-<div class="container productCards  text-center">
+<div  class="col-md-4 " <?php wc_product_class( '', $product ); ?>>
+<div id="<?php echo get_the_ID()?>" class="container  productCards  text-center">
 	<?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.

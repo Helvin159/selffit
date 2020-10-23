@@ -24,21 +24,20 @@ global $product;
 echo apply_filters(
 	'woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
 	sprintf(
-		'
-		<div class=" addToCartButtons">
-		<div class="row px-3">
-		<div class="col-lg-6  mt-2 p-0 text-center"><a href="%s" data-quantity="%s" class="%s btn cardBtn py-1 px-5" %s style="font-size:20px;color:#1EAE5A;"><i class="fas fa-cart-plus"></i></a></div>',
-		esc_url( $product->add_to_cart_url() ),
-		esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
-		esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
-		isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
-		esc_html( $product->add_to_cart_text() )
-	),
-	$product,
-	$args
-);
-$link = get_the_permalink();
-echo "
-		<div class=\"col-lg-6 mt-2 p-0 text-center\"><a href=".$link." class=\"btn cardBtn\">Mas Detalles</a></div>
-		</div> 
+		'<div class=" addToCartButtons row text-center">
+			<div class="col-5 p-0 text-right"><a href="%s" data-quantity="%s" class="%s btn cardBtn" %s style="font-size:20px;color:#1EAE5A;"><i class="fas fa-cart-plus"></i></a></div>',
+			esc_url( $product->add_to_cart_url() ),
+			esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
+			esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
+			isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
+			esc_html( $product->add_to_cart_text() )
+			),
+			$product,
+			$args
+			);
+			$link = get_the_permalink();
+			echo "
+				<div class=\"col-7 text-left\"><a href=".$link." class=\"btn cardBtn\">Detalles</a></div>
+				</div> 
+			</div>
 		</div>";

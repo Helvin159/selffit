@@ -16,9 +16,9 @@ function selffit_files(){
       wp_enqueue_style('my-style', get_theme_file_uri('/Css/style.css'), null, '1.0', 'all');
     } else{      
         // CSS
-        wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.df52b798599f2f27d02a.css'), null, '1.0', 'all');
+        wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.6efb4f7e6b8f9a2bc249.css'), null, '1.0', 'all');
         wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.920bf068e75aa8ef387f.js'), NULL, '1.0', true);
-        wp_enqueue_script('main-selffit-scripts', get_theme_file_uri('/bundled-assets/scripts.df52b798599f2f27d02a.js'), NULL, '1.0', true);
+        wp_enqueue_script('main-selffit-scripts', get_theme_file_uri('/bundled-assets/scripts.6efb4f7e6b8f9a2bc249.js'), NULL, '1.0', true);
       }
 
 
@@ -173,19 +173,22 @@ register_sidebar(
       };
 
       echo '
-      <div class="container belowImage m-0 p-0">
-        <h4 class="woocommerce-loop-product_title">
-          <a href="'.get_the_permalink().'">' . strtoupper(get_the_title()) . '
-          </a>
-        </h4>
-        <p class="cardSubtitle">'. get_field('what_this_is').'</p>
-          <div class="container text-center">
-          <ul style="list-style-type:none;margin:0;padding:0;text-align:center;">
-              <li class="text-center px-2" style="margin:0;padding:0;display:inline-block;"> '. $type .'</li>
-              '. $isFeatured .'
-            </ul>
+      <div class="cardOverlay">
+        <div class=" ">
+          <div class="container belowImage m-0 p-0">
+            <h4 class="woocommerce-loop-product_title m-0 pt-2 p-0">
+            <a href="'.get_the_permalink().'">' . strtoupper(get_the_title()) . '
+            </a>
+            </h4>
+            <p class="cardSubtitle">'. get_field('what_this_is').'</p>
+            <div class="container text-center">
+              <ul style="list-style-type:none;margin:0;padding:0;text-align:center;">
+                <li class="text-center px-2" style="margin:0;padding:0;display:inline-block;"> '. $type .'</li>
+                '. $isFeatured .'
+              </ul>
+            </div>
           </div>
-        </div>';
+        ';
   }
 
   // add_filter( 'woocommerce_enqueue_styles', '__return_false' );

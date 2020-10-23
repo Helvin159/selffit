@@ -1,4 +1,4 @@
-<div class="fluid-container pb-2 hero">
+<div class="fluid-container pb-2 hero" style="background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url(<?php echo get_theme_file_uri('Assets/img/5.JPG') ?>);background-size:cover;background-position:center;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 p-2">

@@ -259,6 +259,10 @@ color:#1EAE5A;
   padding: 2.5%;
 }
 
+.woocommerce-Price-amount, .amount{
+  background-color: #ffffff00;
+}
+
 .prodcutsCustom ul {
   display: inline-block;
 }
@@ -269,10 +273,22 @@ color:#1EAE5A;
 }
 
 .addToCartButtons{
-padding-top: 5%;
-padding-bottom: 0px;
-background-color: #fff !important;
+padding: 0;
+/* background-color: #fff !important; */
 border-radius: 5px;
+}
+
+.addToCartButtons ul{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.addToCartButtons li{
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
 
 .productCards a{
@@ -282,26 +298,24 @@ border-radius: 5px;
 
 .productCards {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5) !important;
-  min-height: 545px;
-  max-height: 550px;
-  padding: 0;
+  min-height: 250px;
+  max-height: auto;
+  padding: 0 0;
   margin: 2.5% 0;
   border-radius: 5px;
   background-image:linear-gradient(180deg, #E9E9EA, #ffffff);
+  position: relative;
 }
 
 .attachment-woocommerce_thumbnail, .size-woocommerce_thumbnail{
   margin: 10% 0;
-
-  /* height: 200px; */
 }
 
 .cardBtn{
-  border: solid 1px #014023 !important;
+  /* border: solid 1px #014023 !important; */
   background-color: rgba(255,255,255,0.0001) !important;
   font-weight: 400 !important;
-  /* padding: 3.5% !important; */
-  /* font-size: 15px !important; */
+  
 }
 
 .cardBtn:hover {
@@ -319,9 +333,8 @@ border-radius: 5px;
 
 .belowImage{
   margin: 0px;
-  padding-top: 2.5%;
+  padding-top: 0;
   padding: 0;
-  background-color: #fff;
 }
 
 .woocommerce-LoopProduct-link, .woocommerce-loop-product__link{
@@ -331,6 +344,31 @@ border-radius: 5px;
 
 .homeProducts{
   background-color: #ffffff;
+}
+
+/* Card Overlay */
+.cardOverlay {
+  position: absolute;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+    min-height: 250px;
+
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5% 0;
+  overflow: hidden;
+  background-color:rgba(244, 244, 244, 0.95);
+  transition: .3s ease-in;
+  /* Black background with opacity */
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
 }
 
 /* Pagination */
@@ -502,7 +540,7 @@ list-style-type: none;
 
 /* Store Page */
 .storePage{
-  background-color: #C6E6C8;
+  background-color: #C6E6C825;
 }
 
 /* Categories Page */
@@ -563,6 +601,8 @@ list-style-type: none;
   padding: 4.5%;
   background-color: #fefffe;
 }
+
+
 
 /* Content */
 .theContent ul {
@@ -691,9 +731,7 @@ list-style-type: none;
 /* Reviews */
 
 .reviews {
-  background: url(../Assets/img/lpbg.jpeg);
-  background-size: cover;
-  background-position: center center;
+
   min-height: 300px;
   height: auto;
   padding: 2.5%;
@@ -728,13 +766,7 @@ list-style-type: none;
 
 /* Hero */
 .hero {
-  background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, 0.8)
-    ),
-    url("../Assets/img/5.JPG");
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
@@ -849,8 +881,10 @@ list-style-type: none;
   /* Specify a stack order in case you're using a different order for other elements */
 }
 
+
 .overlayOn{
   display: block;
+  transition: .3s ease-in;
 }
 
 .noScroll {
@@ -1027,3 +1061,8 @@ body,
 html {
   overflow-x: hidden;
 }
+@media only screen and (max-width: 399px){}
+@media only screen and (min-width: 400px){}
+@media only screen and (min-width: 768px){}
+@media only screen and (min-width: 992px){}
+@media only screen and (min-width: 1200px){}
