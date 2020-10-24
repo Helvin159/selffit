@@ -13,25 +13,17 @@ constructor(){
     // Events
 events(){
     
-    // this.card.mouseover(this.assignID.bind(this))
-    // this.card.mouseenter(this.openCardOverlay.bind(this))
-    // this.card.mouseleave(this.closeCardOverlay.bind(this))
+    this.card.mouseenter(this.openCardOverlay.bind(this))
+    this.card.mouseleave(this.closeCardOverlay.bind(this))
 }
 
 
     // Methods
-    assignID(e){
-        e.this.id = this.card.attr('id')
-        alert(e.this.id);
-    }
 
     openCardOverlay(){
-        // this.card.find('.cardOverlay').addClass('overlayOn')
+        this.card.find('.cardOverlay').addClass('overlayOn')
         this.cardOpen = true
 
-        if(!$('.cardOverlay').hasClass('overlayOn')){
-            $('.cardOverlay').addClass('overlayOn')
-        }
     }
 
     closeCardOverlay(){
