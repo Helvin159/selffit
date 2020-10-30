@@ -26,7 +26,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<div  class="col-md-4 my-3" <?php wc_product_class( '', $product ); ?>>
+<div   class="col-md-4 my-3" <?php wc_product_class( '', $product ); ?>>
 <div id="<?php echo get_the_ID()?>" class="container  productCards  text-center">
 	<?php
 	/**

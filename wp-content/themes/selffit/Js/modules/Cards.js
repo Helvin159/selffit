@@ -6,31 +6,36 @@ class cardHover{
 constructor(){
     this.card = $(".productCards");
     this.cardOpen = false
-    this.id;
     this.events();
 }
 
     // Events
 events(){
     
-    this.card.mouseenter(this.openCardOverlay.bind(this))
-    this.card.mouseleave(this.closeCardOverlay.bind(this))
+    // this.card.on('mouseenter', (e) => {alert(e.target.id)})
+
+    this.card.on('mouseenter', this.openCardOverlay.bind(this))
+
+    this.card.on('mouseleave', this.closeCardOverlay.bind(this))
 }
 
 
     // Methods
 
-    openCardOverlay(){
-        this.card.find('.cardOverlay').addClass('overlayOn')
-        this.cardOpen = true
-
+    openCardOverlay(e){
+        if(this.cardOpen === false){
+            let cardId = e.target.id
+            console.log(cardId)
+            $(`#${cardId}`).find($('.cardOverlay')).addClass('overlayOn')
+        }    
+        return this.cardOpen = true
     }
 
     closeCardOverlay(){
-        
-        // $('.cardOverlay').removeClass('overlayOn')
-        this.card.find('.cardOverlay').removeClass('overlayOn')
-        this.cardOpen = false
+        if(this.cardOpen === true){
+            this.card.find('.cardOverlay').removeClass('overlayOn')
+        }
+        return this.cardOpen = false
     }
 }
 

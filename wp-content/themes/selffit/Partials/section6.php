@@ -25,7 +25,7 @@
       $showPost->the_post(); ?>
       
 			<div class="col-md-3 " <?php wc_product_class( '', $product ); ?>>
-<div class="container productCards homeProducts text-center">
+<div id="<?php echo get_the_ID()?>" class="container productCards homeProducts text-center">
         <?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
