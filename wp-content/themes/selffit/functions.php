@@ -13,12 +13,12 @@ function selffit_files(){
     if(strstr($_SERVER['SERVER_NAME'], 'self-fit.local')){
       // Bundled Files
       wp_enqueue_script('main-selffit-scripts', 'http://localhost:3000/bundled.js', NULL, '1.0', true);// CSS
-      wp_enqueue_style('my-style', get_theme_file_uri('/Css/style.css'), null, '1.0', 'all');
+      wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.fc25a944e7e14ba97f2a.css'), null, '1.0', 'all');
     } else{      
         // CSS
-        wp_enqueue_style('my-style', get_theme_file_uri('/bundled-assets/styles.7bdfabf6494673539220.css'), null, '1.0', 'all');
+        wp_enqueue_style('my-main-style', get_theme_file_uri('/bundled-assets/styles.fc25a944e7e14ba97f2a.css'), null, '1.0', 'all');
         wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.920bf068e75aa8ef387f.js'), NULL, '1.0', true);
-        wp_enqueue_script('main-selffit-scripts', get_theme_file_uri('/bundled-assets/scripts.7bdfabf6494673539220.js'), NULL, '1.0', true);
+        wp_enqueue_script('main-selffit-scripts', get_theme_file_uri('/bundled-assets/scripts.fc25a944e7e14ba97f2a.js'), NULL, '1.0', true);
       }
 
 

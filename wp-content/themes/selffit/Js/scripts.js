@@ -1,4 +1,4 @@
-import "../Css/style.css";
+import "../Css/styles.css";
 
 
 // Modules
