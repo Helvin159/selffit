@@ -15,7 +15,7 @@ events(){
     // this.card.on('mouseenter', (e) => {alert(e.target.id)})
 
     this.card.on('mouseenter', this.openCardOverlay.bind(this))
-
+    // this.card.addEventListener('mouseover', this.openCardOverlay.bind(this))
     this.card.on('mouseleave', this.closeCardOverlay.bind(this))
 }
 
